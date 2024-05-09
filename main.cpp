@@ -129,12 +129,12 @@ public:
     }
 
     string to_string() const {
-        return "----------------------------------------\n"
-               "|       " + titulo + "          |\n"
-               "|      " + artista + "       |\n"
-               "|       " + album + "           |\n"
-               "|       Duration: " + std::to_string(duracion) + "s        |\n"
-               "----------------------------------------";
+        return "------------------------------------\n"
+               "|       " + titulo + "\n"
+               "|       " + artista + "\n"
+               "|       " + album + "\n"
+               "|       Duration: " + std::to_string(duracion) + "s\n"
+               "------------------------------------\n";
     }
 
     friend std::ostream& operator<<(std::ostream& os, Cancion& b){
@@ -222,7 +222,7 @@ public:
             if(size == 0){
                 cout<<"La playlist está vacía";
             }else{
-                cout<<"la posicion no existe";
+                cout<<"La posicion no existe";
             }
             return NULL;
         }
@@ -231,18 +231,17 @@ public:
 
     Cancion* get_genero(string d){
         genero = new Genero(d);
-        cout<<"El género de la canción "<< d << " es " << *get(0)<<endl;;
+        cout<<"El género de la canción "<< d << " es " << *get(0)<<endl;
         return get(0);
     }
 
     string to_string(){
         string s = get_dato()->to_string();
-        s.append(">>");
+        s.append(":\n>>");
         Cancion* c = cancion;
         while(c != NULL){
             s.append(c->get_cancion().to_string());
             c = c->get_next();
-            s.append(">>");
         }
         s.append("\n");
         return s;
@@ -322,7 +321,7 @@ public:
         }else{
             //throw invalid_argument("La posicion no existe");
             if(size == 0){
-                cout<<"La playlista está vacía";
+                cout<<"La playlist está vacía";
             }else{
                 cout<<"La posicion no existe";
             }
@@ -391,7 +390,7 @@ int main() {
         pl.get(1)->push_back("Billie Jean", "Michael Jackson", "Thriller", 310);
         pl.get(1)->push_back("Human Nature", "Micheal Jackson", "Thriller", 250);
     } else {
-        cout << "Playlist esta vacía. Añada un genero first." << endl;
+        cout << "Playlist esta vacía. Añada un genero primero." << endl;
     }
 
     pl.print();
