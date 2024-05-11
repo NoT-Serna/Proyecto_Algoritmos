@@ -3,6 +3,9 @@
 #include<string>
 #include <chrono>
 #include <thread>
+#include <fstream>
+#include <sstream>
+
 using namespace std;
 
 class Genero{
@@ -51,76 +54,59 @@ public:
 
 };
 
-class Cancion{
+class Cancion {
 private:
     string titulo;
     string artista;
     string album;
     int duracion; // Duración en segundos
     Cancion* pointer;
+    Genero* generoPointer; // Pointer to the corresponding genre
 
 public:
-    Cancion(){
+    Cancion() {
         titulo = " ";
         artista = " ";
         album = " ";
         duracion = 0;
         pointer = NULL;
+        generoPointer = NULL;
     }
 
-     ~Cancion(){
+    ~Cancion() {}
 
-    }
-
-    Cancion(string t, string a, string al, int d){
-        this-> titulo = t;
-        this-> artista = a;
-        this-> album = al;
-        this-> duracion = d;
-            pointer =   NULL;
-    }
-
-    //Getters
-    inline const string& get_titulo() const { 
-        return titulo; 
-    }
-    inline const string& get_artista() const { 
-        return artista; 
-    }
-    inline const string& get_album() const { 
-        return album; 
-    }
-    inline int get_duracion() const { 
-        return duracion; 
+    Cancion(string t, string a, string al, int d, Genero* g) {
+        titulo = t;
+        artista = a;
+        album = al;
+        duracion = d;
+        pointer = NULL;
+        generoPointer = g;
     }
 
-    Cancion get_cancion() const {
-        return *this;
-    }
+    // Getters
+    inline const string& get_titulo() const { return titulo; }
+    inline const string& get_artista() const { return artista; }
+    inline const string& get_album() const { return album; }
+    inline int get_duracion() const { return duracion; }
 
-    //Setters
-    void set_titulo(const string& t) { 
-        titulo = t; 
-    }
-    void set_artista(const string& a) { 
-        artista = a; 
-    }
-    void set_album(const string& al) { 
-        album = al; 
-    }
-    void set_duracion(int d) { 
-        duracion = d; 
-    }
+    // Setters
+    void set_titulo(const string& t) { titulo = t; }
+    void set_artista(const string& a) { artista = a; }
+    void set_album(const string& al) { album = al; }
+    void set_duracion(int d) { duracion = d; }
 
-    Cancion* get_next(){
-        return pointer;
-    }
+    // Get the corresponding genre
+    inline Genero* get_generoPointer() const { return generoPointer; }
 
-    void set_next(Cancion* c){
-        pointer = c;
-    }
+    // Set the corresponding genre
+    void set_generoPointer(Genero* g) { generoPointer = g; }
 
-    Cancion& operator=(const Cancion& f){
+    Cancion* get_next() { return pointer; }
+
+    void set_next(Cancion* c) { pointer = c; }
+
+    Cancion& operator=(const Cancion& f) {
         set_titulo(f.titulo);
         set_artista(f.artista);
         set_album(f.album);
@@ -133,17 +119,16 @@ public:
                "|       " + titulo + "\n"
                "|       " + artista + "\n"
                "|       " + album + "\n"
-               "|       Duration: " + std::to_string(duracion) + "s\n"
+               "|       Duracion: " + std::to_string(duracion) + "s\n"
+               "|       Genero: " + generoPointer->get_dato() + "\n"
                "------------------------------------\n";
     }
 
-    friend std::ostream& operator<<(std::ostream& os, Cancion& b){
-        return os <<b.to_string();
+    friend std::ostream& operator<<(std::ostream& os, Cancion& b) {
+        return os << b.to_string();
     }
-
-
-
 };
+
 
 class Nodo{
     Genero* genero;
@@ -197,19 +182,20 @@ public:
       prev = a;
   }
 
-  void push_back(string t, string a, string al, int d){
-        if(size == 0){
-            cancion = new Cancion(t,a,al,d);
-            size++;
-        }else{
-            Cancion* c_1 = cancion;
-            while(c_1->get_next() != NULL){
-                c_1 = c_1->get_next();    
-            }
-            c_1->set_next(new Cancion(t,a,al,d));
-            size++;
+  void push_back(string t, string a, string al, int d, Genero* g) {
+    if (size == 0) {
+        cancion = new Cancion(t, a, al, d, g);
+        size++;
+    } else {
+        Cancion* c_1 = cancion;
+        while (c_1->get_next() != nullptr) {
+            c_1 = c_1->get_next();
         }
-  }
+        c_1->set_next(new Cancion(t, a, al, d, g));
+        size++;
+    }
+}
+
 
     Cancion* get(int i){
         if(i < size && i>=0){
@@ -235,17 +221,19 @@ public:
         return get(0);
     }
 
-    string to_string(){
-        string s = get_dato()->to_string();
-        s.append(":\n>>");
-        Cancion* c = cancion;
-        while(c != NULL){
-            s.append(c->get_cancion().to_string());
-            c = c->get_next();
-        }
-        s.append("\n");
-        return s;
+    string to_string() const {
+    string s = genero->to_string() + ":\n>>";
+    Cancion* c = cancion;
+    while (c != nullptr) {
+        s.append(c->to_string());
+        c = c->get_next();
     }
+    s.append("\n");
+    return s;
+}
+
+
+
 
     friend std:: ostream& operator<<(std:: ostream& os, Nodo& b){
         return os <<b.to_string();
@@ -374,10 +362,53 @@ public:
         }
         
     }
+
+    void readSongsFromFile(const string& filename, const string& gen_name) {
+    ifstream file(filename);
+    if (!file.is_open()) {
+        std::cerr << "Failed to open file: " << filename << endl;
+        return;
+    }
+
+    string line;
+    while (std::getline(file, line)) {
+        std::istringstream iss(line);
+        std::string title, artist, album;
+        int duration;
+
+        if (getline(iss, title, ',') &&
+            getline(iss, artist, ',') &&
+            getline(iss, album, ',') &&
+            (iss >> duration)) {
+            bool found = false;
+            Nodo* current = ptr;
+            while (current != nullptr) {
+                if (current->get_dato()->get_dato() == gen_name) {
+                    current->push_back(title, artist, album, duration, current->get_dato());
+                    found = true;
+                    break;
+                }
+                current = current->get_next();
+            }
+            if (!found) {
+                std::cerr << "Genre '" << gen_name << "' not found." << endl;
+            }
+        } else {
+            std::cerr << "Invalid format in line: " << line << endl;
+        }
+    }
+
+    file.close();
+}
+
+
+
     
 };
 
 int main() {
+
+    /*
     Playlist pl = Playlist();
     
  
@@ -392,6 +423,19 @@ int main() {
     } else {
         cout << "Playlist esta vacía. Añada un genero primero." << endl;
     }
+
+    pl.print();
+
+    */
+
+    Playlist pl = Playlist();
+
+    pl.push_back(new Genero("Rock"));
+    pl.push_back(new Genero("Pop"));
+
+    // Read songs from file and add them to the playlist
+    pl.readSongsFromFile("songs.txt", "Rock");
+    pl.readSongsFromFile("songs.txt", "Pop");
 
     pl.print();
     return 0;
