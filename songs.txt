@@ -1,32 +1,45 @@
-Welcome to the Jungle,Guns N' Roses,Appetite For Destruction,263,Rock
-Black Dog,Led Zeppelin,Led Zeppelin IV,317,Rock
-Billie Jean,Michael Jackson,Thriller,310,Pop
-Human Nature,Michael Jackson,Thriller,250,Pop
-Bohemian Rhapsody,Queen,A Night at the Opera,355,Rock
-Hotel California,Eagles,Hotel California,391,Rock
-Stairway to Heaven,Led Zeppelin,Led Zeppelin IV,482,Rock
-Imagine,John Lennon,Imagine,182,Pop
-Smells Like Teen Spirit,Nirvana,Nevermind,302,Rock
 Like a Rolling Stone,Bob Dylan,Highway 61 Revisited,371,Rock
-Hey Jude,The Beatles,The Beatles,431,Pop
-Sweet Child o' Mine,Guns N' Roses,Appetite For Destruction,355,Rock
-Thriller,Michael Jackson,Thriller,358,Pop
 Back in Black,AC/DC,Back in Black,255,Rock
-Highway to Hell,AC/DC,Highway to Hell,208,Rock
-November Rain,Guns N' Roses,Use Your Illusion I,537,Rock
-Livin' on a Prayer,Bon Jovi,Slippery When Wet,248,Rock
-Don't Stop Believin',Journey,Escape,250,Rock
-Bohemian Like You,The Dandy Warhols,Thirteen Tales from Urban Bohemia,231,Pop
-Clocks,Coldplay,A Rush of Blood to the Head,309,Pop
-Thunderstruck,AC/DC,The Razors Edge,292,Rock
-Smoke on the Water,Deep Purple,Machine Head,340,Rock
-Comfortably Numb,Pink Floyd,The Wall,382,Rock
-Wonderwall,Oasis,(What's the Story) Morning Glory?,258,Pop
-Satisfaction,The Rolling Stones,Out of Our Heads,222,Rock
-Another Brick in the Wall (Part 2),Pink Floyd,The Wall,243,Rock
-Sweet Caroline,Neil Diamond,Sweet Caroline,201,Pop
-Piano Man,Billy Joel,Piano Man,342,Pop
-Brown Eyed Girl,Van Morrison,Blowin' Your Mind!,182,Pop
-Light My Fire,The Doors,The Doors,446,Rock
-All Along the Watchtower,Jimi Hendrix,Electric Ladyland,243,Rock
 Sympathy for the Devil,The Rolling Stones,Beggars Banquet,368,Rock
+Dákiti,Bad Bunny x Jhay Cortez,Single,205,Reggaeton
+La Romana,Bad Bunny ft. El Alfa,X 100PRE,238,Reggaeton
+Billie Jean,Michael Jackson,Thriller,310,Pop
+Thunderstruck,AC/DC,The Razors Edge,292,Rock
+Light My Fire,The Doors,The Doors,446,Rock
+Piano Man,Billy Joel,Piano Man,342,Pop
+Thriller,Michael Jackson,Thriller,358,Pop
+Hey Jude,The Beatles,The Beatles,431,Pop
+Welcome to the Jungle,Guns N' Roses,Appetite For Destruction,263,Rock
+Imagine,John Lennon,Imagine,182,Pop
+Black Dog,Led Zeppelin,Led Zeppelin IV,317,Rock
+Another Brick in the Wall (Part 2),Pink Floyd,The Wall,243,Rock
+November Rain,Guns N' Roses,Use Your Illusion I,537,Rock
+Con Calma,Daddy Yankee ft. Snow,Single,193,Reggaeton
+Despacito,Luis Fonsi ft. Daddy Yankee,Single,228,Reggaeton
+Bohemian Rhapsody,Queen,A Night at the Opera,355,Rock
+Gasolina,Daddy Yankee,Barrio Fino,214,Reggaeton
+All Along the Watchtower,Jimi Hendrix,Electric Ladyland,243,Rock
+Hotel California,Eagles,Hotel California,391,Rock
+China,Anuel AA, Daddy Yankee, Karol G, Ozuna, J Balvin,Single,372,Reggaeton
+Baila Baila Baila,Ozuna,Aura,238,Reggaeton
+Wonderwall,Oasis,(What's the Story) Morning Glory?,258,Pop
+Highway to Hell,AC/DC,Highway to Hell,208,Rock
+Te Boté (Remix),Nio García, Casper Mágico, Darell, Ozuna, Bad Bunny,Single,412,Reggaeton
+Bohemian Like You,The Dandy Warhols,Thirteen Tales from Urban Bohemia,231,Pop
+Sweet Caroline,Neil Diamond,Sweet Caroline,201,Pop
+Livin' on a Prayer,Bon Jovi,Slippery When Wet,248,Rock
+Clocks,Coldplay,A Rush of Blood to the Head,309,Pop
+Like a Rolling Stone,Bob Dylan,Highway 61 Revisited,371,Rock
+Brown Eyed Girl,Van Morrison,Blowin' Your Mind!,182,Pop
+Hasta Que Salga el Sol,Ozuna,Aura,233,Reggaeton
+Taki Taki,DJ Snake ft. Selena Gomez, Ozuna, Cardi B,Single,212,Reggaeton
+Sweet Child o' Mine,Guns N' Roses,Appetite For Destruction,355,Rock
+Comfortably Numb,Pink Floyd,The Wall,382,Rock
+Don't Stop Believin',Journey,Escape,250,Rock
+Another Brick in the Wall (Part 2),Pink Floyd,The Wall,243,Rock
+Human Nature,Michael Jackson,Thriller,250,Pop
+Smoke on the Water,Deep Purple,Machine Head,340,Rock
+Satisfaction,The Rolling Stones,Out of Our Heads,222,Rock
+Stairway to Heaven,Led Zeppelin,Led Zeppelin IV,482,Rock
+Livin' on a Prayer,Bon Jovi,Slippery When Wet,248,Rock
+
