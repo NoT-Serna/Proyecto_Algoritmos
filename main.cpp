@@ -433,9 +433,10 @@ int main() {
     pl.push_back(new Genero("Rock"));
     pl.push_back(new Genero("Pop"));
 
-    // Read songs from file and add them to the playlist
+    // Leer canciones
     pl.readSongsFromFile("songs.txt", "Rock");
     pl.readSongsFromFile("songs.txt", "Pop");
+    pl.readSongsFromFile("songs.txt", "Reggaeton");
 
     pl.print();
     return 0;
