@@ -1,127 +1,117 @@
-#include<iostream>
-#include<math.h>
-#include<string>
-#include <chrono>
-#include <thread>
+#include <iostream>
 #include <fstream>
 #include <sstream>
+#include <memory>
+#include <vector>
 
 using namespace std;
 
-class Genero{
+class Genero {
 private:
     string nombre;
     Genero* pointer;
 
 public:
-    Genero(){
+    Genero() {
         nombre = " ";
         pointer = nullptr;
     }
 
-    ~Genero(){
-
-    }
-
-    Genero(string n){
+    Genero(string n) {
         nombre = n;
         pointer = nullptr;
     }
 
-    string get_dato(){
+    string get_nombre() const {
         return nombre;
     }
 
-    void set_dato(string n){
+    void set_nombre(string n) {
         nombre = n;
     }
 
-    Genero* get_next(){
+    Genero* get_next() {
         return pointer;
     }
 
-    void set_next(Genero* g){
+    void set_next(Genero* g) {
         pointer = g;
     }
 
-    string to_string(){
-        return get_dato();
+    string to_string() {
+        return get_nombre();
     }
 
-    friend std::ostream& operator<<(std::ostream& os, Genero& b){
-        return os <<b.to_string();
+    friend std::ostream& operator<<(std::ostream& os, Genero& b) {
+        return os << b.to_string();
     }
-
 };
 
 class Cancion {
 private:
     string titulo;
-    string artista;
+    vector<string> artistas;
     string album;
-    int duracion; // Duración en segundos
+    int duracion;
     Cancion* pointer;
-    Genero* generoPointer; // Pointer to the corresponding genre
+    Genero* generoPointer;
 
 public:
     Cancion() {
         titulo = " ";
-        artista = " ";
         album = " ";
         duracion = 0;
-        pointer = NULL;
-        generoPointer = NULL;
+        pointer = nullptr;
+        generoPointer = nullptr;
     }
 
-    ~Cancion() {}
-
-    Cancion(string t, string a, string al, int d, Genero* g) {
+    Cancion(string t, const vector<string>& a, string al, int d, Genero* g) {
         titulo = t;
-        artista = a;
+        artistas = a;
         album = al;
         duracion = d;
-        pointer = NULL;
+        pointer = nullptr;
         generoPointer = g;
     }
 
-    // Getters
     inline const string& get_titulo() const { return titulo; }
-    inline const string& get_artista() const { return artista; }
+    inline const vector<string>& get_artistas() const { return artistas; }
     inline const string& get_album() const { return album; }
     inline int get_duracion() const { return duracion; }
 
-    // Setters
     void set_titulo(const string& t) { titulo = t; }
-    void set_artista(const string& a) { artista = a; }
+    void set_artistas(const vector<string>& a) { artistas = a; }
     void set_album(const string& al) { album = al; }
     void set_duracion(int d) { duracion = d; }
 
-    // Get the corresponding genre
     inline Genero* get_generoPointer() const { return generoPointer; }
-
-    // Set the corresponding genre
     void set_generoPointer(Genero* g) { generoPointer = g; }
 
     Cancion* get_next() { return pointer; }
-
     void set_next(Cancion* c) { pointer = c; }
 
     Cancion& operator=(const Cancion& f) {
         set_titulo(f.titulo);
-        set_artista(f.artista);
+        set_artistas(f.artistas);
         set_album(f.album);
         set_duracion(f.duracion);
         return *this;
     }
 
     string to_string() const {
-        return "------------------------------------\n"
-               "|       " + titulo + "\n"
-               "|       " + artista + "\n"
-               "|       " + album + "\n"
-               "|       Duracion: " + std::to_string(duracion) + "s\n"
-               "|       Genero: " + generoPointer->get_dato() + "\n"
-               "------------------------------------\n";
+        stringstream ss;
+        ss << "------------------------------------\n"
+           << "|       " << titulo << "\n"
+           << "|       ";
+        for (const auto& artist : artistas) {
+            ss << artist << ", ";
+        }
+        ss << "\n"
+           << "|       " << album << "\n"
+           << "|       Duracion: " << duracion << "s\n"
+           << "|       Genero: " << generoPointer->get_nombre() << "\n"
+           << "------------------------------------\n";
+        return ss.str();
     }
 
     friend std::ostream& operator<<(std::ostream& os, Cancion& b) {
@@ -129,8 +119,7 @@ public:
     }
 };
 
-
-class Nodo{
+class Nodo {
     Genero* genero;
     Cancion* cancion;
     Nodo* pointer;
@@ -138,286 +127,257 @@ class Nodo{
     int size;
 
 public:
-    Nodo(){
+    Nodo() {
         genero = nullptr;
         cancion = nullptr;
         pointer = nullptr;
         prev = nullptr;
-        int size;
+        size = 0;
     }
 
-    ~Nodo(){
+    ~Nodo() {
         delete cancion;
-   }
-
-    Nodo(Genero* g){
-      genero = g;
-      pointer = NULL;
-      prev = NULL;
-      cancion = NULL;
-      size = 0;
-  }
-    
-    Genero* get_dato(){
-      return genero;
-  }
-  
-  void set_dato(Genero* g){
-      genero = g;
-  }
-  
-  Nodo* get_next(){
-      return pointer;
-  }
-  
-  Nodo* get_prev(){
-      return prev;
-  }
-  
-  void set_next(Nodo* p){
-      pointer = p;
-  }
-  
-  void set_prev(Nodo* a){
-      prev = a;
-  }
-
-  void push_back(string t, string a, string al, int d, Genero* g) {
-    if (size == 0) {
-        cancion = new Cancion(t, a, al, d, g);
-        size++;
-    } else {
-        Cancion* c_1 = cancion;
-        while (c_1->get_next() != nullptr) {
-            c_1 = c_1->get_next();
-        }
-        c_1->set_next(new Cancion(t, a, al, d, g));
-        size++;
     }
-}
 
+    Nodo(Genero* g) : genero(g), cancion(nullptr), pointer(nullptr), prev(nullptr), size(0) {}
 
-    Cancion* get(int i){
-        if(i < size && i>=0){
+    Genero* get_dato() {
+        return genero;
+    }
+
+    void set_dato(Genero* g) {
+        genero = g;
+    }
+
+    Nodo* get_next() {
+        return pointer;
+    }
+
+    Nodo* get_prev() {
+        return prev;
+    }
+
+    void set_next(Nodo* p) {
+        pointer = p;
+    }
+
+    void set_prev(Nodo* a) {
+        prev = a;
+    }
+
+    void push_back(const string& t, const vector<string>& a, const string& al, int d, Genero* g) {
+        if (size == 0) {
+            cancion = new Cancion(t, a, al, d, g);
+            size++;
+        } else {
+            Cancion* c_1 = cancion;
+            while (c_1->get_next() != nullptr) {
+                c_1 = c_1->get_next();
+            }
+            c_1->set_next(new Cancion(t, a, al, d, g));
+            size++;
+        }
+    }
+
+    Cancion* get(int i) {
+        if (i < size && i >= 0) {
             Cancion* c = cancion;
-            for(int x = 0; x<i; x++){
+            for (int x = 0; x < i; x++) {
                 c = c->get_next();
             }
             return c;
-        }else{
-            if(size == 0){
-                cout<<"La playlist está vacía";
-            }else{
-                cout<<"La posicion no existe";
+        } else {
+            if (size == 0) {
+                cout << "La playlist está vacía";
+            } else {
+                cout << "La posicion no existe";
             }
-            return NULL;
+            return nullptr;
         }
-
     }
 
-    Cancion* get_genero(string d){
+    Cancion* get_genero(const string& d) {
         genero = new Genero(d);
-        cout<<"El género de la canción "<< d << " es " << *get(0)<<endl;
+        cout << "El género de la canción " << d << " es " << *get(0) << endl;
         return get(0);
     }
 
     string to_string() const {
-    string s = genero->to_string() + ":\n>>";
-    Cancion* c = cancion;
-    while (c != nullptr) {
-        s.append(c->to_string());
-        c = c->get_next();
-    }
-    s.append("\n");
-    return s;
-}
-
-
-
-
-    friend std:: ostream& operator<<(std:: ostream& os, Nodo& b){
-        return os <<b.to_string();
+        string s = genero->to_string() + ":\n>>";
+        Cancion* c = cancion;
+        while (c != nullptr) {
+            s.append(c->to_string());
+            c = c->get_next();
+        }
+        s.append("\n");
+        return s;
     }
 
+    friend std::ostream& operator<<(std::ostream& os, Nodo& b) {
+        return os << b.to_string();
+    }
 };
 
-class Playlist{
-    
-    Nodo* ptr;
+class Playlist {
+    unique_ptr<Nodo> ptr;
     int size;
 
-public:  
+public:
+    Playlist() : ptr(nullptr), size(0) {}
 
-    Playlist(){
-        ptr = NULL;
-        size = 0;
-    }
-    
-    ~Playlist(){
-        Nodo* t = ptr;
-        Nodo* n;
-        while(t->get_next() != NULL){
-            n = t;
-            t = t->get_next();    
-            delete n;
-        }
-        delete t;
-    }
-    
-    void push_back(Genero* d){
-        
-        if(size == 0){
-            ptr = new Nodo(d);
+    ~Playlist() {}
+
+    void push_back(Genero* d) {
+        if (size == 0) {
+            ptr = make_unique<Nodo>(d);
             size++;
-        }else{
-            Nodo* t = ptr;
-            while(t->get_next() != NULL){
-                t = t->get_next();    
+        } else {
+            Nodo* t = ptr.get();
+            while (t->get_next() != nullptr) {
+                t = t->get_next();
             }
             t->set_next(new Nodo(d));
             size++;
         }
-        cout<<endl;
-        
+        cout << endl;
     }
-    
-    int getSize(){
+
+    int getSize() const {
         return size;
     }
-    
-    void print(){
-        if(size == 0){
-            cout<<"La lista está vacía"<<endl;
-        }else{
-            Nodo* t = ptr;
-            do{
-                cout<<(*t);
+
+    void print() const {
+        if (size == 0) {
+            cout << "La lista está vacía" << endl;
+        } else {
+            Nodo* t = ptr.get();
+            do {
+                cout << (*t);
                 t = t->get_next();
-                
-            }while(t != NULL);
-            cout<<endl;
+            } while (t != nullptr);
+            cout << endl;
         }
     }
-    
-    Nodo* get(int i){
-        if(i < size && i>=0){
-            Nodo* n = ptr;
-            for(int x = 0; x<i;x++){
+
+    Nodo* get(int i) const {
+        if (i < size && i >= 0) {
+            Nodo* n = ptr.get();
+            for (int x = 0; x < i; x++) {
                 n = n->get_next();
             }
             return n;
-        }else{
-            //throw invalid_argument("La posicion no existe");
-            if(size == 0){
-                cout<<"La playlist está vacía";
-            }else{
-                cout<<"La posicion no existe";
+        } else {
+            if (size == 0) {
+                cout << "La playlist está vacía";
+            } else {
+                cout << "La posicion no existe";
             }
-            return NULL;
+            return nullptr;
         }
-        
     }
-    
-    
-    void insert(Genero* p, int pos){
-        if(pos >= 0 && pos <= size){
-            if(size == 0 || pos == size){ 
+
+    void insert(Genero* p, int pos) {
+        if (pos >= 0 && pos <= size) {
+            if (size == 0 || pos == size) {
                 push_back(p);
-            }else{
-                Nodo* n = new Nodo(p);
-                if(pos == 0){
-                    n->set_next(ptr);
-                    ptr = n;
-                }else{
-                    Nodo* t = get(pos-1);
-                    n->set_next(t->get_next());
-                    t->set_next(n);
+            } else {
+                if (pos == 0) {
+                    auto new_node = make_unique<Nodo>(p);
+                    new_node->set_next(ptr.release());
+                    ptr = move(new_node);
+                } else {
+                    Nodo* n = get(pos - 1);
+                    n->set_next(new Nodo(p));
                 }
                 size++;
             }
-        }else{
-            cout<<"La posicion no existe"<<endl;
-            
+        } else {
+            cout << "La posicion no existe" << endl;
         }
-        
     }
-    
-    void remove(int pos){
-        
-        if((pos >= 0 && pos <= size) && size > 0){
-            if(pos == 0){ 
-                Nodo* t = ptr;
-                ptr = ptr->get_next();
-                delete t;
-            }else{
-                Nodo* t = get(pos-1);
+
+    void remove(int pos) {
+        if ((pos >= 0 && pos < size) && size > 0) {
+            if (pos == 0) {
+                ptr.reset(ptr->get_next());
+            } else {
+                Nodo* t = get(pos - 1);
                 Nodo* t2 = t->get_next();
-                
                 t->set_next(t2->get_next());
-                delete t2;
             }
             size--;
-        }else{
-            cout<<"La posicion no existe o la lista está vacía"<<endl;
+        } else {
+            cout << "La posicion no existe o la lista está vacía" << endl;
         }
-        
     }
 
     void readSongsFromFile(const string& filename, const string& gen_name) {
         ifstream file(filename);
         if (!file.is_open()) {
-            std::cerr << "Failed to open file: " << filename << endl;
+            cerr << "Failed to open file: " << filename << endl;
             return;
         }
-    
+
         string line;
-        while (std::getline(file, line)) {
-            std::istringstream iss(line);
-            std::string title, artist, album;
+        while (getline(file, line)) {
+            istringstream iss(line);
+            string title, artists_str, album, genre;
             int duration;
-    
+
             if (getline(iss, title, ',') &&
-                getline(iss, artist, ',') &&
+                getline(iss, artists_str, ',') &&
                 getline(iss, album, ',') &&
+                getline(iss, genre, ',') &&
                 (iss >> duration)) {
-                bool found = false;
-                Nodo* current = ptr;
-                while (current != nullptr) {
-                    if (current->get_dato()->get_dato() == gen_name) {
-                        current->push_back(title, artist, album, duration, new Genero(gen_name));
-                        found = true;
-                        break;
+                if (genre == gen_name) {
+                    push_back(new Genero(gen_name));
+
+                    // Parse artists
+                    vector<string> artists;
+                    stringstream artistsStream(artists_str);
+                    string artist;
+                    while (getline(artistsStream, artist, '&')) {
+                        artists.push_back(artist);
                     }
-                    current = current->get_next();
-                }
-                if (!found) {
-                    std::cerr << "Genre '" << gen_name << "' not found." << endl;
+
+                    // Add song to the playlist
+                    get(getSize() - 1)->push_back(title, artists, album, duration, get(getSize() - 1)->get_dato());
                 }
             } else {
-                std::cerr << "Invalid format in line: " << line << endl;
+                cerr << "Invalid format in line: " << line << endl;
             }
         }
-    
+
         file.close();
     }
 
-    void printGenero(const string& gen_name) {
-        Nodo* current = ptr;
-        while (current != nullptr) {
-            if (current->get_dato()->get_dato() == gen_name) {
-                cout << (*current) << endl;
-                return;
-            }
-            current = current->get_next();
+   void printGenero(const string& gen_name) {
+    Nodo* current = ptr.get();
+    bool found = false;
+    while (current != nullptr) {
+        if (current->get_dato()->get_nombre() == gen_name) {
+            cout << (*current) << endl;
+            found = true;
+            break;
         }
+        current = current->get_next();
+    }
+    if (!found) {
         cout << "Género '" << gen_name << "' no encontrado." << endl;
     }
+}
+
 };
 
 int main() {
 
-    /*
+
+
+
+     /*
     Playlist pl = Playlist();
+    
+ 
     pl.push_back(new Genero("Rock"));
     pl.push_back(new Genero("Pop"));
     // Añadir canciones al género
@@ -434,10 +394,11 @@ int main() {
 
     */
 
-    /* Playlist pl = Playlist();
+    Playlist pl = Playlist();
 
     pl.push_back(new Genero("Rock"));
     pl.push_back(new Genero("Pop"));
+    pl.push_back(new Genero("Reggaeton"));
 
     // Leer canciones
     pl.readSongsFromFile("songs.txt", "Rock");
@@ -445,15 +406,13 @@ int main() {
     pl.readSongsFromFile("songs.txt", "Reggaeton");
 
     pl.print();
-    return 0; */
-    
-Playlist pl = Playlist();
+
+
+    /*
+    Playlist pl = Playlist();
     pl.push_back(new Genero("Rock"));
     pl.push_back(new Genero("Pop"));
     pl.push_back(new Genero("Reggaeton"));
-    pl.readSongsFromFile("songs.txt", "Rock");
-    pl.readSongsFromFile("songs.txt", "Pop");
-    pl.readSongsFromFile("songs.txt", "Reggaeton");
 
     int opcion;
     do {
@@ -484,6 +443,9 @@ Playlist pl = Playlist();
             default:
                 cout << "Opción no válida. Por favor, seleccione nuevamente." << endl;
         }
+        pl.print();
     } while (opcion != 0);
+    */
+
     return 0;
 }
