@@ -364,54 +364,60 @@ public:
     }
 
     void readSongsFromFile(const string& filename, const string& gen_name) {
-    ifstream file(filename);
-    if (!file.is_open()) {
-        std::cerr << "Failed to open file: " << filename << endl;
-        return;
-    }
-
-    string line;
-    while (std::getline(file, line)) {
-        std::istringstream iss(line);
-        std::string title, artist, album;
-        int duration;
-
-        if (getline(iss, title, ',') &&
-            getline(iss, artist, ',') &&
-            getline(iss, album, ',') &&
-            (iss >> duration)) {
-            bool found = false;
-            Nodo* current = ptr;
-            while (current != nullptr) {
-                if (current->get_dato()->get_dato() == gen_name) {
-                    current->push_back(title, artist, album, duration, current->get_dato());
-                    found = true;
-                    break;
-                }
-                current = current->get_next();
-            }
-            if (!found) {
-                std::cerr << "Genre '" << gen_name << "' not found." << endl;
-            }
-        } else {
-            std::cerr << "Invalid format in line: " << line << endl;
+        ifstream file(filename);
+        if (!file.is_open()) {
+            std::cerr << "Failed to open file: " << filename << endl;
+            return;
         }
+    
+        string line;
+        while (std::getline(file, line)) {
+            std::istringstream iss(line);
+            std::string title, artist, album;
+            int duration;
+    
+            if (getline(iss, title, ',') &&
+                getline(iss, artist, ',') &&
+                getline(iss, album, ',') &&
+                (iss >> duration)) {
+                bool found = false;
+                Nodo* current = ptr;
+                while (current != nullptr) {
+                    if (current->get_dato()->get_dato() == gen_name) {
+                        current->push_back(title, artist, album, duration, new Genero(gen_name));
+                        found = true;
+                        break;
+                    }
+                    current = current->get_next();
+                }
+                if (!found) {
+                    std::cerr << "Genre '" << gen_name << "' not found." << endl;
+                }
+            } else {
+                std::cerr << "Invalid format in line: " << line << endl;
+            }
+        }
+    
+        file.close();
     }
 
-    file.close();
-}
-
-
-
-    
+    void printGenero(const string& gen_name) {
+        Nodo* current = ptr;
+        while (current != nullptr) {
+            if (current->get_dato()->get_dato() == gen_name) {
+                cout << (*current) << endl;
+                return;
+            }
+            current = current->get_next();
+        }
+        cout << "Género '" << gen_name << "' no encontrado." << endl;
+    }
 };
 
 int main() {
 
     /*
     Playlist pl = Playlist();
-    
- 
     pl.push_back(new Genero("Rock"));
     pl.push_back(new Genero("Pop"));
     // Añadir canciones al género
@@ -428,7 +434,7 @@ int main() {
 
     */
 
-    Playlist pl = Playlist();
+    /* Playlist pl = Playlist();
 
     pl.push_back(new Genero("Rock"));
     pl.push_back(new Genero("Pop"));
@@ -439,5 +445,45 @@ int main() {
     pl.readSongsFromFile("songs.txt", "Reggaeton");
 
     pl.print();
+    return 0; */
+    
+Playlist pl = Playlist();
+    pl.push_back(new Genero("Rock"));
+    pl.push_back(new Genero("Pop"));
+    pl.push_back(new Genero("Reggaeton"));
+    pl.readSongsFromFile("songs.txt", "Rock");
+    pl.readSongsFromFile("songs.txt", "Pop");
+    pl.readSongsFromFile("songs.txt", "Reggaeton");
+
+    int opcion;
+    do {
+        cout << "Seleccione un género:" << endl;
+        cout << "1. Rock" << endl;
+        cout << "2. Pop" << endl;
+        cout << "3. Reggaeton" << endl;
+        cout << "0. Salir" << endl;
+        cout << "Opción: ";
+        cin >> opcion;
+
+        switch (opcion) {
+            case 1:
+                cout << "Lista de canciones de Rock:" << endl;
+                pl.printGenero("Rock");
+                break;
+            case 2:
+                cout << "Lista de canciones de Pop:" << endl;
+                pl.printGenero("Pop");
+                break;
+            case 3:
+                cout << "Lista de canciones de Reggaeton:" << endl;
+                pl.printGenero("Reggaeton");
+                break;
+            case 0:
+                cout << "Saliendo del programa..." << endl;
+                break;
+            default:
+                cout << "Opción no válida. Por favor, seleccione nuevamente." << endl;
+        }
+    } while (opcion != 0);
     return 0;
 }
