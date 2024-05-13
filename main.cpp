@@ -388,32 +388,26 @@ int main() {
     
             switch (opcion) {
                 case 1:
-                    cout << "Lista de canciones Rock:" << endl;
                     pl.push_back(new Genero("Rock"));
                     pl.readSongsFromFile("songs.txt", "Rock");
                     break;
                 case 2:
-                    cout << "Lista de canciones Pop:" << endl;
                     pl.push_back(new Genero("Pop"));
                     pl.readSongsFromFile("songs.txt", "Pop");
                     break;
                 case 3:
-                    cout << "Lista de canciones Reggaeton:" << endl;
                     pl.push_back(new Genero("Reggaeton"));
                     pl.readSongsFromFile("songs.txt", "Reggaeton");
                     break;
                 case 4:
-                    cout << "Lista de canciones Indie:" << endl;
                     pl.push_back(new Genero("Indie"));
                     pl.readSongsFromFile("songs.txt", "Indie");
                     break;
                 case 5:
-                    cout << "Lista de canciones Folk:" << endl;
                     pl.push_back(new Genero("Folk"));
                     pl.readSongsFromFile("songs.txt", "Folk");
                     break;
                 case 6:
-                    cout << "Lista de canciones R&B:" << endl;
                     pl.push_back(new Genero("R&B"));
                     pl.readSongsFromFile("songs.txt", "R&B");
                     break;
