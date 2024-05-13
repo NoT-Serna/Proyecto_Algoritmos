@@ -40,4 +40,68 @@ Human Nature,Michael Jackson,Thriller,Pop,250
 Smoke on the Water,Deep Purple,Machine Head,Rock,340
 Satisfaction,The Rolling Stones,Out of Our Heads,Rock,222
 Stairway to Heaven,Led Zeppelin,Led Zeppelin IV,Rock,482
-Livin' on a Prayer,Bon Jovi,Slippery When Wet,Rock,248
+My Love Mine All Mine,Mitski,The Land is Inhospitable and So Are We,Indie,217
+True Blue,Boygenius,the record,Indie,456
+A&W,Lana del Rey,Did you know that there´s a tunnel under Ocean Blvd,Indie,713
+Will Anybody Ever Love Me?,Sufjan Stevens,Will Anybody Ever Love Me?,Indie,409
+Glue Song (feat Clairo),beabadoobee&Clairo,single,Indie,215
+Sick,Dominic Fike,Sunburn,Indie,221
+To Love,Suki Waterhouse,To Love,Indie,356
+Modern Girl,Bleachers,Modern Girl,Indie,343
+Invincible,Omar Apollo ft. Daniel Caesar,Ivory,Indie,336
+The perfect pair,beabadoobee,Beatopia,Indie,257
+About You,the 1975,Being Funny In A Foreign Language,Indie,526
+Anything But Me,MUNA,MUNA,Indie,333
+Change,Djo,DECIDE,Indie,257
+Weird Goodbyes (feat. Bon Iver),The National&Bon Iver,single,Indie,503
+The Only Heartbreaker,Mitski,Laurel Hell,Indie,304
+Mistakes,Sharon Van Etten,We've Been Going About This All Wrong,Indie,359
+There'd Better Be A Mirrorball,Arctic Monkeys,The Car,Indie,425
+Love Story,Taylor Swift,Fearless (Taylor's Version),Pop,355
+Mine,Taylor Swift,Speak Now (Taylor's Version),Pop,351
+Sparks Fly,Taylor Swift,Speak Now (Taylor's Version),Pop,421
+Espresso,Sabrina Carpenter,single,Pop,255
+Wildest Dreams,Taylor Swift,1989 (Taylor's Version),Pop,340
+Nonsense,Sabrina Carpenter,emails i can´t send,Pop,243
+Feather,Sabrina Carpenter,emails i can´t send,Pop,305
+New Romantics,Taylor Swift,1989 (Taylor's Version),Pop,350
+Good Luck&Babe!,Chappell Roan,single,Pop,338
+Lover,Taylor Swift,Lover,Pop,341
+Pretty Girls,Renee Rapp,Snow Angel,Pop,226
+Too Well,Renee Rapp,Everything To Everyone,Pop,236
+The Man,Taylor Swift,Lover,Pop,310
+Femininomenon,Chappell Roan,The Rise and Fall of a Midwest Princess,Pop,339
+Cruel Summer,Taylor Swift,Lover,Pop,258
+I Will Follow You Into the Dark,Death Cab For Cutie,Plans,Folk,309
+The 1,Taylor Swift,Folklore,Folk,330
+Exile (feat. Bon Iver),Taylor Swift,Folklore,Folk,445
+Seven,Taylor Swift,Folklore,Folk,328
+Skinny Love,Bon Iver,For Emma&Forever Ago,Folk,358
+Willow,Taylor Swift,Evermore,Folk,334
+The Lakes,Taylor Swift,Folklore (Deluxe Edition),Folk,331
+Holocene,Bon Iver,Bon Iver,Folk,536
+Stubborn Love,The Lumineers,The Lumineers,Folk,439
+Coney Island (feat. The National),Taylor Swift ft The National,Evermore,Folk,435
+Cowboy Like Me,Taylor Swift,Evermore,Folk,435
+To Be Alone With You,Sufjan Stevens,Seven Swans,Folk,248
+Fare Thee Well (Dink's Song),Oscar Isaac&Marcus Mumford,Inside Llewyn Davis Soundtrack,Folk,300
+Mirrorball,Taylor Swift,Folklore,Folk,328
+Invisible String,Taylor Swift,Folklore,Folk,412
+Champagne Problems,Taylor Swift,Evermore,Folk,404
+Flowers in Your Hair,The Lumineers,The Lumineers,Folk,149
+Gold Rush,Taylor Swift,Evermore,Folk,305
+Ivy,Taylor Swift,Evermore,Folk,420
+Tolerate It,Taylor Swift,Evermore,Folk,405
+No Guidance,Chris Brown ft. Drake,Indigo,R&B,420
+Adorn,Miguel,Kaleidoscope Dream,R&B,313
+Say My Name,Destiny's Child,The Writing's on the Wall,R&B,431
+Cranes in the Sky,Solange,A Seat at the Table,R&B,410
+Rock With You,Michael Jackson,Off the Wall,R&B,340
+Boo'd Up,Ella Mai,Ready,R&B,416
+Ignition (Remix),R. Kelly,Chocolate Factory,R&B,306
+The Boy is Mine,Brandy & Monica,Never Say Never,R&B,454
+We Belong Together,Mariah Carey,The Emancipation of Mimi,R&B,321
+Superstar,Usher,Confessions,R&B,311
+Location,Khalid,American Teen,R&B,339
+I Wanna Dance With Somebody (Who Loves Me),Whitney Houston,Whitney,R&B,451
+Best Part,Daniel Caesar ft. H.E.R.,Freudian,R&B,329
