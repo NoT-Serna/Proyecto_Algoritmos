@@ -351,7 +351,7 @@ public:
         file.close();
     }
 
-   void printGenero(const string& gen_name) {
+   /*void printGenero(const string& gen_name) {
     Nodo* current = ptr.get();
     bool found = false;
     while (current != nullptr) {
@@ -366,18 +366,70 @@ public:
         cout << "Género '" << gen_name << "' no encontrado." << endl;
     }
 }
+*/
 
 };
 
 int main() {
 
+    Playlist pl;
+        int opcion;
+        do {
+            cout << "Selecciona un género para recibir recomendaciones musicales:" << endl;
+            cout << "1. Rock" << endl;
+            cout << "2. Pop" << endl;
+            cout << "3. Reggaeton" << endl;
+            cout << "4. Indie" <<endl;
+            cout << "5. Folk" <<endl;
+            cout << "6. R&B" <<endl;
+            cout << "0. Salir" << endl;
+            cout << "Opción: ";
+            cin >> opcion;
+    
+            switch (opcion) {
+                case 1:
+                    cout << "Lista de canciones Rock:" << endl;
+                    pl.push_back(new Genero("Rock"));
+                    pl.readSongsFromFile("songs.txt", "Rock");
+                    break;
+                case 2:
+                    cout << "Lista de canciones Pop:" << endl;
+                    pl.push_back(new Genero("Pop"));
+                    pl.readSongsFromFile("songs.txt", "Pop");
+                    break;
+                case 3:
+                    cout << "Lista de canciones Reggaeton:" << endl;
+                    pl.push_back(new Genero("Reggaeton"));
+                    pl.readSongsFromFile("songs.txt", "Reggaeton");
+                    break;
+                case 4:
+                    cout << "Lista de canciones Indie:" << endl;
+                    pl.push_back(new Genero("Indie"));
+                    pl.readSongsFromFile("songs.txt", "Indie");
+                    break;
+                case 5:
+                    cout << "Lista de canciones Folk:" << endl;
+                    pl.push_back(new Genero("Folk"));
+                    pl.readSongsFromFile("songs.txt", "Folk");
+                    break;
+                case 6:
+                    cout << "Lista de canciones R&B:" << endl;
+                    pl.push_back(new Genero("R&B"));
+                    pl.readSongsFromFile("songs.txt", "R&B");
+                    break;
+                case 0:
+                    cout << "Saliendo del programa..." << endl;
+                    break;
+                default:
+                    cout << "Opción no válida. Por favor, seleccione nuevamente." << endl;
+            }
+            pl.print();
+        } while (opcion != 0);
+        return 0;
 
-
-
+}
      /*
     Playlist pl = Playlist();
-    
- 
     pl.push_back(new Genero("Rock"));
     pl.push_back(new Genero("Pop"));
     // Añadir canciones al género
@@ -389,63 +441,15 @@ int main() {
     } else {
         cout << "Playlist esta vacía. Añada un genero primero." << endl;
     }
-
     pl.print();
-
-    */
-
     Playlist pl = Playlist();
-
     pl.push_back(new Genero("Rock"));
     pl.push_back(new Genero("Pop"));
     pl.push_back(new Genero("Reggaeton"));
-
     // Leer canciones
     pl.readSongsFromFile("songs.txt", "Rock");
     pl.readSongsFromFile("songs.txt", "Pop");
     pl.readSongsFromFile("songs.txt", "Reggaeton");
-
     pl.print();
-
-
-    /*
-    Playlist pl = Playlist();
-    pl.push_back(new Genero("Rock"));
-    pl.push_back(new Genero("Pop"));
-    pl.push_back(new Genero("Reggaeton"));
-
-    int opcion;
-    do {
-        cout << "Seleccione un género:" << endl;
-        cout << "1. Rock" << endl;
-        cout << "2. Pop" << endl;
-        cout << "3. Reggaeton" << endl;
-        cout << "0. Salir" << endl;
-        cout << "Opción: ";
-        cin >> opcion;
-
-        switch (opcion) {
-            case 1:
-                cout << "Lista de canciones de Rock:" << endl;
-                pl.printGenero("Rock");
-                break;
-            case 2:
-                cout << "Lista de canciones de Pop:" << endl;
-                pl.printGenero("Pop");
-                break;
-            case 3:
-                cout << "Lista de canciones de Reggaeton:" << endl;
-                pl.printGenero("Reggaeton");
-                break;
-            case 0:
-                cout << "Saliendo del programa..." << endl;
-                break;
-            default:
-                cout << "Opción no válida. Por favor, seleccione nuevamente." << endl;
-        }
-        pl.print();
-    } while (opcion != 0);
-    */
-
     return 0;
-}
+    */
