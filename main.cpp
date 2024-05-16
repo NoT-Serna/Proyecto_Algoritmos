@@ -169,14 +169,15 @@ public:
         if (size == 0) {
             cancion = new Cancion(t, a, al, d, g);
             size++;
-        } else {
-            Cancion* c_1 = cancion;
-            while (c_1->get_next() != nullptr) {
-                c_1 = c_1->get_next();
-            }
-            c_1->set_next(new Cancion(t, a, al, d, g));
-            size++;
-        }
+        } //else {
+           // Cancion* c_1 = cancion;
+           // while (c_1->get_next() != nullptr) {
+               // c_1 = c_1->get_next();
+           // }
+           // c_1->set_next(new Cancion(t, a, al, d, g));
+            //size++;
+       // }
+        //el codigo comentado es porque a la hora de relizar algunas pruebas, este pedazo de codigo no se esta ejecutando
     }
 
     Cancion* get(int i) {
@@ -340,7 +341,7 @@ public:
                         artists.push_back(artist);
                     }
 
-                    // Add song to the playlist
+                    // Add song to the playlist //este esta recorriendo la lista 3 veces, por lo cual le quita algo de efectividad al programa, esto esta basicamente insertando una cancion a un nodo vacio
                     get(getSize() - 1)->push_back(title, artists, album, duration, get(getSize() - 1)->get_dato());
                 }
             } else {
