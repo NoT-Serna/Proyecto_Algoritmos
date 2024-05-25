@@ -1,2 +1,2 @@
 # Proyecto_Algoritmos
-Descripción del Proyecto
+Para ahondar en los conceptos de algoritmos y estructuras de datos, hemos diseñado un modelo de lista de reproducción usando estructuras de datos programadas en el lenguaje de programación C + +. El motivo de la lista de reproducción es qué el usuario pueda organizar canciones dependiendo de su género musical. Además de esto las canciones muestran su artista, el álbum al qué pertenece la  canción y la duración en segundos de la canción. Nuestra lista de reproducción también permite ordenar la lista de canciones basadas en su tiempo de duración. 
