@@ -1,62 +1,114 @@
 Like a Rolling Stone,Bob Dylan,Highway 61 Revisited,Rock,371
 Back in Black,AC/DC,Back in Black,Rock,255
 Sympathy for the Devil,The Rolling Stones,Beggars Banquet,Rock,368
-Dákiti,Bad Bunny x Jhay Cortez,Single,Reggaeton,205
-La Romana,Bad Bunny ft. El Alfa,X 100PRE,Reggaeton,238
-Billie Jean,Michael Jackson,Thriller,Pop,310
 Thunderstruck,AC/DC,The Razors Edge,Rock,292
 Light My Fire,The Doors,The Doors,Rock,446
-Piano Man,Billy Joel,Piano Man,Pop,342
-Thriller,Michael Jackson,Thriller,Pop,358
-Hey Jude,The Beatles,The Beatles,Pop,431
 Welcome to the Jungle,Guns N' Roses,Appetite For Destruction,Rock,263
-Imagine,John Lennon,Imagine,Pop,182
 Black Dog,Led Zeppelin,Led Zeppelin IV,Rock,317
 Another Brick in the Wall (Part 2),Pink Floyd,The Wall,Rock,243
 November Rain,Guns N' Roses,Use Your Illusion I,Rock,537
-Con Calma,Daddy Yankee ft. Snow,Single,Reggaeton,193
-Despacito,Luis Fonsi ft. Daddy Yankee,Single,Reggaeton,228
 Bohemian Rhapsody,Queen,A Night at the Opera,Rock,355
-Gasolina,Daddy Yankee,Barrio Fino,Reggaeton,214
 All Along the Watchtower,Jimi Hendrix,Electric Ladyland,Rock,243
 Hotel California,Eagles,Hotel California,Rock,391
-Baila Baila Baila,Ozuna,Aura,Reggaeton,238
-Wonderwall,Oasis,(What's the Story) Morning Glory?,Pop,258
 Highway to Hell,AC/DC,Highway to Hell,Rock,208
-Te Boté (Remix),Nio García & Casper Mágico & Darell & Ozuna & Bad Bunny,Single,Reggaeton,412
-Bohemian Like You,The Dandy Warhols,Thirteen Tales from Urban Bohemia,Pop,231
-Sweet Caroline,Neil Diamond,Sweet Caroline,Pop,201
 Livin' on a Prayer,Bon Jovi,Slippery When Wet,Rock,248
-Clocks,Coldplay,A Rush of Blood to the Head,Pop,309
-Like a Rolling Stone,Bob Dylan,Highway 61 Revisited,Rock,371
-Brown Eyed Girl,Van Morrison,Blowin' Your Mind!,Pop,182
-Hasta Que Salga el Sol,Ozuna,Aura,Reggaeton,233
-Taki Taki,DJ Snake ft. Selena Gomez & Ozuna & Cardi B,Single,Reggaeton,212
 Sweet Child o' Mine,Guns N' Roses,Appetite For Destruction,Rock,355
 Comfortably Numb,Pink Floyd,The Wall,Rock,382
 Don't Stop Believin',Journey,Escape,Rock,250
-Another Brick in the Wall (Part 2),Pink Floyd,The Wall,Rock,243
-Human Nature,Michael Jackson,Thriller,Pop,250
 Smoke on the Water,Deep Purple,Machine Head,Rock,340
 Satisfaction,The Rolling Stones,Out of Our Heads,Rock,222
 Stairway to Heaven,Led Zeppelin,Led Zeppelin IV,Rock,482
-My Love Mine All Mine,Mitski,The Land is Inhospitable and So Are We,Indie,217
-True Blue,Boygenius,the record,Indie,456
-A&W,Lana del Rey,Did you know that there´s a tunnel under Ocean Blvd,Indie,713
-Will Anybody Ever Love Me?,Sufjan Stevens,Will Anybody Ever Love Me?,Indie,409
-Glue Song (feat Clairo),beabadoobee&Clairo,single,Indie,215
-Sick,Dominic Fike,Sunburn,Indie,221
-To Love,Suki Waterhouse,To Love,Indie,356
-Modern Girl,Bleachers,Modern Girl,Indie,343
-Invincible,Omar Apollo ft. Daniel Caesar,Ivory,Indie,336
-The perfect pair,beabadoobee,Beatopia,Indie,257
-About You,the 1975,Being Funny In A Foreign Language,Indie,526
-Anything But Me,MUNA,MUNA,Indie,333
-Change,Djo,DECIDE,Indie,257
-Weird Goodbyes (feat. Bon Iver),The National&Bon Iver,single,Indie,503
-The Only Heartbreaker,Mitski,Laurel Hell,Indie,304
-Mistakes,Sharon Van Etten,We've Been Going About This All Wrong,Indie,359
-There'd Better Be A Mirrorball,Arctic Monkeys,The Car,Indie,425
+Imagine,John Lennon,Imagine,Rock,185
+Born to Run,Bruce Springsteen,Born to Run,Rock,295
+Smells Like Teen Spirit,Nirvana,Nevermind,Rock,301
+Wonderwall,Oasis,(What's the Story) Morning Glory?,Rock,258
+Under the Bridge,Red Hot Chili Peppers,Blood Sugar Sex Magik,Rock,259
+You Shook Me All Night Long,AC/DC,Back in Black,Rock,210
+Paint It Black,The Rolling Stones,Aftermath,Rock,205
+Baba O'Riley,The Who,Who's Next,Rock,311
+Heroes,David Bowie,Heroes,Rock,366
+Knocking on Heaven's Door,Bob Dylan,Pat Garrett & Billy the Kid,Rock,167
+Back in the U.S.S.R.,The Beatles,The Beatles (The White Album),Rock,163
+American Woman,The Guess Who,American Woman,Rock,228
+Paranoid,Black Sabbath,Paranoid,Rock,172
+Fortunate Son,Creedence Clearwater Revival,Willy and the Poor Boys,Rock,142
+The Joker,Steve Miller Band,The Joker,Rock,222
+Walk This Way,Aerosmith,Toys in the Attic,Rock,215
+Dream On,Aerosmith,Aerosmith,Rock,265
+Livin' on the Edge,Aerosmith,Get a Grip,Rock,387
+Free Bird,Lynyrd Skynyrd,single,Rock,545
+Come Together,The Beatles,Abbey Road,Rock,259
+More Than a Feeling,Boston,Boston,Rock,285
+I Love Rock 'n Roll,Joan Jett & The Blackhearts,I Love Rock 'n Roll,Rock,177
+Runnin' with the Devil,Van Halen,Van Halen,Rock,211
+Crazy Train,Ozzy Osbourne,Blizzard of Ozz,Rock,304
+Black Magic Woman,Santana,Abraxas,Rock,356
+Rock and Roll All Nite,Kiss,Dressed to Kill,Rock,171
+Rock You Like a Hurricane,Scorpions,Love at First Sting,Rock,264
+Carry on Wayward Son,Kansas,Leftoverture,Rock,315
+Johnny B. Goode,Chuck Berry,Chuck Berry Is on Top,Rock,162
+Highway Star,Deep Purple,Machine Head,Rock,391
+Roxanne,The Police,Outlandos d'Amour,Rock,216
+All Right Now,Free,Fire and Water,Rock,299
+Barracuda,Heart,Little Queen,Rock,275
+You Really Got Me,The Kinks,The Kinks,Rock,155
+Born to Be Wild,Steppenwolf,Steppenwolf,Rock,203
+White Room,Cream,Wheels of Fire,Rock,302
+Jump,Van Halen,1984,Rock,247
+Owner of a Lonely Heart,Yes,90125,Rock,285
+Layla,Derek and the Dominos,Layla and Other Assorted Love Songs,Rock,428
+Sunshine of Your Love,Cream,Disraeli Gears,Rock,243
+Jailhouse Rock,Elvis Presley,Jailhouse Rock,Rock,141
+Whole Lotta Love,Led Zeppelin,Led Zeppelin II,Rock,333
+Bad Moon Rising,Creedence Clearwater Revival,Green River,Rock,139
+Proud Mary,Creedence Clearwater Revival,Bayou Country,Rock,187
+Ziggy Stardust,David Bowie,The Rise and Fall of Ziggy Stardust and the Spiders from Mars,Rock,197
+Tom Sawyer,Rush,Moving Pictures,Rock,263
+Magic Carpet Ride,Steppenwolf,The Second,Rock,280
+Space Oddity,David Bowie,Space Oddity,Rock,315
+Brown Sugar,The Rolling Stones,Sticky Fingers,Rock,229
+Money,Pink Floyd,The Dark Side of the Moon,Rock,382
+You Can't Always Get What You Want,The Rolling Stones,Let It Bleed,Rock,411
+Black Hole Sun,Soundgarden,Superunknown,Rock,319
+Buddy Holly,Weezer,Weezer (Blue Album),Rock,166
+I Want You to Want Me,Cheap Trick,In Color,Rock,178
+Rock Lobster,The B-52's,The B-52's,Rock,263
+The Boys Are Back in Town,Thin Lizzy,Jailbreak,Rock,254
+Sweet Jane,The Velvet Underground,Loaded,Rock,243
+Dancing in the Dark,Bruce Springsteen,Born in the U.S.A.,Rock,252
+Pinball Wizard,The Who,Tommy,Rock,181
+Don't Fear the Reaper,Blue Öyster Cult,Agents of Fortune,Rock,315
+Whole Lotta Rosie,AC/DC,Let There Be Rock,Rock,319
+Heartbreaker,Led Zeppelin,Led Zeppelin II,Rock,258
+Bennie and the Jets,Elton John,Goodbye Yellow Brick Road,Rock,336
+Cocaine,Eric Clapton,Slowhand,Rock,232
+Sweet Emotion,Aerosmith,Toys in the Attic,Rock,259
+Suffragette City,David Bowie,The Rise and Fall of Ziggy Stardust and the Spiders from Mars,Rock,204
+Brown Eyed Girl,Van Morrison,Blowin' Your Mind!,Rock,183
+My Generation,The Who,My Generation,Rock,220
+Dreams,Fleetwood Mac,Rumours,Rock,256
+Back in Time,Huey Lewis and the News,Back to the Future Soundtrack,Rock,240
+Aqualung,Jethro Tull,Aqualung,Rock,404
+Bohemian Like You,The Dandy Warhols,Thirteen Tales from Urban Bohemia,Rock,237
+Bad to the Bone,George Thorogood & The Destroyers,Bad to the Bone,Rock,249
+Surrender,Cheap Trick,Heaven Tonight,Rock,257
+Zombie,The Cranberries,No Need to Argue,Rock,306
+Alive,Pearl Jam,Ten,Rock,310
+The Wind Cries Mary,The Jimi Hendrix Experience,Are You Experienced,Rock,181
+With or Without You,U2,The Joshua Tree,Rock,296
+Should I Stay or Should I Go,The Clash,Combat Rock,Rock,189
+Voodoo Child (Slight Return),The Jimi Hendrix Experience,Electric Ladyland,Rock,307
+Billie Jean,Michael Jackson,Thriller,Pop,310
+Piano Man,Billy Joel,Piano Man,Pop,342
+Thriller,Michael Jackson,Thriller,Pop,358
+Hey Jude,The Beatles,The Beatles,Pop,431
+Imagine,John Lennon,Imagine,Pop,182
+Wonderwall,Oasis,(What's the Story) Morning Glory?,Pop,258
+Bohemian Like You,The Dandy Warhols,Thirteen Tales from Urban Bohemia,Pop,231
+Sweet Caroline,Neil Diamond,Sweet Caroline,Pop,201
+Clocks,Coldplay,A Rush of Blood to the Head,Pop,309
+Brown Eyed Girl,Van Morrison,Blowin' Your Mind!,Pop,182
+Human Nature,Michael Jackson,Thriller,Pop,250
 Love Story,Taylor Swift,Fearless (Taylor's Version),Pop,355
 Mine,Taylor Swift,Speak Now (Taylor's Version),Pop,351
 Sparks Fly,Taylor Swift,Speak Now (Taylor's Version),Pop,421
@@ -72,26 +124,280 @@ Too Well,Renee Rapp,Everything To Everyone,Pop,236
 The Man,Taylor Swift,Lover,Pop,310
 Femininomenon,Chappell Roan,The Rise and Fall of a Midwest Princess,Pop,339
 Cruel Summer,Taylor Swift,Lover,Pop,258
-I Will Follow You Into the Dark,Death Cab For Cutie,Plans,Folk,309
-The 1,Taylor Swift,Folklore,Folk,330
-Exile (feat. Bon Iver),Taylor Swift,Folklore,Folk,445
-Seven,Taylor Swift,Folklore,Folk,328
-Skinny Love,Bon Iver,For Emma&Forever Ago,Folk,358
-Willow,Taylor Swift,Evermore,Folk,334
-The Lakes,Taylor Swift,Folklore (Deluxe Edition),Folk,331
-Holocene,Bon Iver,Bon Iver,Folk,536
-Stubborn Love,The Lumineers,The Lumineers,Folk,439
-Coney Island (feat. The National),Taylor Swift ft The National,Evermore,Folk,435
-Cowboy Like Me,Taylor Swift,Evermore,Folk,435
-To Be Alone With You,Sufjan Stevens,Seven Swans,Folk,248
-Fare Thee Well (Dink's Song),Oscar Isaac&Marcus Mumford,Inside Llewyn Davis Soundtrack,Folk,300
-Mirrorball,Taylor Swift,Folklore,Folk,328
-Invisible String,Taylor Swift,Folklore,Folk,412
-Champagne Problems,Taylor Swift,Evermore,Folk,404
-Flowers in Your Hair,The Lumineers,The Lumineers,Folk,149
-Gold Rush,Taylor Swift,Evermore,Folk,305
-Ivy,Taylor Swift,Evermore,Folk,420
-Tolerate It,Taylor Swift,Evermore,Folk,405
+2 Hold U,Clairo,Single,Pop,158
+touch tank,quinnie,flounder,Pop,259
+Show Me How,Men I Trust,Oncle Jazz,Pop,335
+at least i'm pretty,Harriette,Single,Pop,146
+SLOW DANCING IN THE DARK,Joji,BALLADS 1,Pop,329
+Care For You,The Marías,Single,Pop,236
+time waits,Glitter Party,Single,Pop,319
+For the First Time,Mac DeMarco,This Old Dog,Pop,302
+Rainbow,Jesse,Single Joker & Rainbow,Pop,256
+Cool with You,Her's,Songs of Her's,Pop,615
+Shape of You,Ed Sheeran,÷ (Divide),Pop,263
+Rolling in the Deep,Adele,21,Pop,228
+Blinding Lights,The Weeknd,After Hours,Pop,200
+Uptown Funk,Mark Ronson ft. Bruno Mars,Uptown Special,Pop,270
+Roar,Katy Perry,Prism,Pop,223
+Firework,Katy Perry,Teenage Dream,Pop,228
+Happy,Pharrell Williams,Despicable Me 2 Soundtrack,Pop,233
+Bad Romance,Lady Gaga,The Fame Monster,Pop,295
+Poker Face,Lady Gaga,The Fame,Pop,238
+Shake It Off,Taylor Swift,1989 (Taylor's Version),Pop,242
+Call Me Maybe,Carly Rae Jepsen,Kiss,Pop,193
+Somebody That I Used to Know,Gotye ft. Kimbra,Making Mirrors,Pop,245
+Senorita,Shawn Mendes & Camila Cabello,Shawn Mendes,Pop,191
+Sugar,Maroon 5,V,Pop,235
+Just the Way You Are,Bruno Mars,Doo-Wops & Hooligans,Pop,221
+Sorry,Justin Bieber,Purpose,Pop,201
+Watermelon Sugar,Harry Styles,Fine Line,Pop,174
+Royals,Lorde,Pure Heroine,Pop,211
+Chandelier,Sia,1000 Forms of Fear,Pop,216
+Blank Space,Taylor Swift,1989 (Taylor's Version),Pop,231
+Havana,Camila Cabello ft. Young Thug,Camila,Pop,216
+Take On Me,a-ha,Hunting High and Low,Pop,213
+Dancing Queen,ABBA,Arrival,Pop,231
+Don't Stop Believin',Journey,Escape,Pop,251
+Eye of the Tiger,Survivor,Rocky III Soundtrack,Pop,245
+Livin' on a Prayer,Bon Jovi,Slippery When Wet,Pop,250
+I Want It That Way,Backstreet Boys,Millennium,Pop,214
+Someone Like You,Adele,21,Pop,285
+Hello,Adele,25,Pop,295
+Bad Guy,Billie Eilish,When We All Fall Asleep& Where Do We Go?,Pop,194
+Lovely,Billie Eilish & Khalid,Single,Pop,200
+Ocean Eyes,Billie Eilish,Don't Smile at Me,Pop,201
+Perfect,Ed Sheeran,÷ (Divide),Pop,263
+Thinking Out Loud,Ed Sheeran,× (Multiply),Pop,281
+Photograph,Ed Sheeran,× (Multiply),Pop,258
+Love Yourself,Justin Bieber,Purpose,Pop,233
+Yummy,Justin Bieber,Changes,Pop,213
+Lose You To Love Me,Selena Gomez,Rare,Pop,206
+Rare,Selena Gomez,Rare,Pop,203
+Wolves,Selena Gomez & Marshmello,Single,Pop,197
+Hands to Myself,Selena Gomez,Revival,Pop,200
+Back to You,Selena Gomez,13 Reasons Why Soundtrack,Pop,228
+The Heart Wants What It Wants,Selena Gomez,For You,Pop,231
+Jealous,Nick Jonas,Nick Jonas,Pop,214
+Close,Nick Jonas ft. Tove Lo,Last Year Was Complicated,Pop,223
+Cake by the Ocean,DNCE,SWAAY,Pop,236
+Sucker,Jonas Brothers,Happiness Begins,Pop,181
+Cool,Jonas Brothers,Happiness Begins,Pop,167
+What Makes You Beautiful,One Direction,Up All Night,Pop,199
+Story of My Life,One Direction,Midnight Memories,Pop,265
+Drag Me Down,One Direction,Made in the A.M.,Pop,187
+Best Song Ever,One Direction,Midnight Memories,Pop,199
+Night Changes,One Direction,Four,Pop,230
+History,One Direction,Made in the A.M.,Pop,213
+Shout Out to My Ex,Little Mix,Glory Days,Pop,241
+Touch,Little Mix,Glory Days,Pop,213
+Black Magic,Little Mix,Get Weird,Pop,228
+Secret Love Song,Little Mix ft. Jason Derulo,Get Weird,Pop,242
+Power,Little Mix ft. Stormzy,Glory Days,Pop,227
+Woman Like Me,Little Mix ft. Nicki Minaj,LM5,Pop,214
+Sweet Melody,Little Mix,Confetti,Pop,210
+Don't Start Now,Dua Lipa,Future Nostalgia,Pop,183
+Levitating,Dua Lipa ft. DaBaby,Future Nostalgia,Pop,203
+Girls Just Want to Have Fun,Cyndi Lauper,She's So Unusual,Pop,218
+Hasta Que Salga el Sol,Ozuna,Aura,Reggaeton,233
+Taki Taki,DJ Snake ft. Selena Gomez & Ozuna & Cardi B,Single,Reggaeton,212
+Baila Baila Baila,Ozuna,Aura,Reggaeton,238
+Te Boté (Remix),Nio García & Casper Mágico & Darell & Ozuna & Bad Bunny,Single,Reggaeton,412
+Gasolina,Daddy Yankee,Barrio Fino,Reggaeton,214
+Con Calma,Daddy Yankee ft. Snow,Single,Reggaeton,193
+Despacito,Luis Fonsi ft. Daddy Yankee,Single,Reggaeton,228
+Dákiti,Bad Bunny x Jhay Cortez,Single,Reggaeton,205
+La Romana,Bad Bunny ft. El Alfa,X 100PRE,Reggaeton,238
+Dile,Don Omar,The Last Don,Reggaeton,324
+Niña bonita,Chino y Nacho,single,Reggaeton,336
+Escápate conmigo remix,Wolfine ft. Ñejo,single,Reggaeton,247
+Noche de entierro,Daddy Yankee & Wisin y Yandel & Zion,Mas Flow-Los Benjamines,Reggaeton,423
+Te pintaron pajaritos,Yandar y Yostin ft. Andy Rivera,single,Reggaeton,252
+Es un secreto,Plan B,Cipote Carnaval,Reggaeton,312
+Mis ojos lloran por ti,Big Boy ft. Angel Lopez,single,Reggaeton,455
+Ven Bailalo - remix,Angel y Khriz,single,Reggaeton,412
+Baila Morena,Lucenzo,Emigrante del Mundo,Reggaeton,304
+Pa' que la pases bien,Arcangel,El fenomeno,Reggaeton,334
+Ella me levanto,Daddy Yankee,El cartel: The Big Boss,Reggaeton,329
+La pregunta,J Alvarez,Timeless,Reggaeton,429
+Salio el sol,Don Omar,King of kings,Reggaeton,515
+El doctorado,Tony Dize,single,Reggaeton,423
+Siente el Boom,Tito el Bambino ft. Randy,El documental II,Reggaeton,308
+La botella,Mach y Daddy,Desde abajo,Reggaeton,257
+En la cama,Nicky Jam & Daddy Yankee,single,Reggaeton,237
+Si no le contesto,Plan B,House of pleasure,Reggaeton,340
+Soy una gargola,Alex Gargolas & Randy,Gargolas 5,Reggaeton,304
+Ojitos Chiquititos,Don Omar,single,Reggaeton,351
+Llamado de emergencia,Daddy Yankee,Talento de Barrio,Reggaeton,359
+6 AM,J Balvin ft. Farruko,Talento de Barrio,Reggaeton,403
+Atrevete-te-te,Calle 13,Calle 13,Reggaeton,359
+Solos,Tony Dize ft. Plan B,Cipote Carnaval,Reggaeton,309
+Me prefieres a mi,Arcangel,single,Reggaeton,315
+Sensacion del bloque,De la Ghetto ft. Randy,Reggaeton Rulers,Reggaeton,302
+Nadie como tu,Wisin y Yandel ft. Don Omar,Wisin y Yandel presentan: Los vaqueros,Reggaeton,342
+Taboo,Don Omar,Meet the Orphans,Reggaeton,452
+Yo se que tu me quieres,Sammy y Falsetto ft. Ñengo Flow,single,Reggaeton,328
+Mayor que yo,Luny Tunes & Baby Ranks & Daddy Yankee & Wisin y Yandel,Mas Flow 2,Reggaeton,230
+Felices los 4,Maluma,F.A.M.E.,Reggaeton,240
+Safari,J Balvin ft. Pharrell Williams& BIA& Sky,Bajo el mismo sol,Reggaeton,240
+Ay vamos,J Balvin,La Familia B Sides,Reggaeton,240
+Sin Pijama,Becky G & Natti Natasha,Sin Pijama,Reggaeton,195
+Amorfoda,Bad Bunny,X 100PRE,Reggaeton,213
+Bonita,Jowell & Randy ft. J Balvin,Single,Reggaeton,192
+Adicto,Tainy & Anuel AA & Ozuna,Single,Reggaeton,229
+Amantes de una Noche,Natti Natasha & Bad Bunny,Single,Reggaeton,239
+Criminal,Natti Natasha & Ozuna,Single,Reggaeton,227
+Que tire pa' lante,Daddy Yankee,Single,Reggaeton,205
+X,Nicky Jam & J Balvin,Single,Reggaeton,164
+Mi Gente,J Balvin & Willy William,Single,Reggaeton,187
+Vaina Loca,Ozuna & Manuel Turizo,Single,Reggaeton,223
+Escápate Conmigo,Wisin ft. Ozuna,Victory,Reggaeton,258
+HP,Maluma,11:11,Reggaeton,180
+Calma (Remix),Pedro Capó & Farruko,Single,Reggaeton,207
+Bella y Sensual,Romeo Santos ft. Daddy Yankee & Nicky Jam,Golden,Reggaeton,230
+Dile Que Tu Me Quieres,Ozuna,Odisea,Reggaeton,219
+Bella,Wolfine,Single,Reggaeton,230
+La Modelo,Ozuna & Cardi B,Odisea,Reggaeton,273
+Otro Trago,Sech ft. Darell,Single,Reggaeton,232
+Si Te Vas,Sech ft. Ozuna,1 of 1,Reggaeton,246
+Te Amo, Piso 21 ft. Paulo Londra,Ubuntu,Reggaeton,211
+Secreto,Anuel AA & Karol G,Single,Reggaeton,259
+China,Anuel AA& Daddy Yankee& Karol G& Ozuna& J Balvin,Single,Reggaeton,323
+Reggaeton Lento (Remix),CNCO & Little Mix,Single,Reggaeton,227
+Me Niego,Reik ft. Ozuna & Wisin,Single,Reggaeton,262
+La Cama, Lunay & Myke Towers,Epico,Reggaeton,276
+Fantasías,Rauw Alejandro & Farruko,Afrodisíaco,Reggaeton,268
+Callaita,Bad Bunny & Tainy,Single,Reggaeton,260
+Tusa,Karol G & Nicki Minaj,Single,Reggaeton,201
+La Jeepeta (Remix),Nio Garcia& Anuel AA& Myke Towers& Brray & Juanka,Now or Never,Reggaeton,345
+Qué Más Pues?,J Balvin & Maria Becerra,Jose,Reggaeton,244
+Hawai,Maluma,Single,Reggaeton,197
+Relación (Remix),Sech& Daddy Yankee& J Balvin& Rosalia& Farruko,1 of 1,Reggaeton,257
+La Santa,Bad Bunny & Daddy Yankee,YHLQMDLG,Reggaeton,237
+Te Soñé de Nuevo,Ozuna,ENOC,Reggaeton,218
+No Me Conoce (Remix),Jhay Cortez& J Balvin & Bad Bunny,Famouz Reloaded,Reggaeton,285
+Caramelo,Ozuna,ENOC,Reggaeton,250
+Elegí,Rauw Alejandro& Dalex& Lenny Tavárez,Single,Reggaeton,271
+Tattoo (Remix),Rauw Alejandro & Camilo,Afrodisíaco,Reggaeton,256
+Me Rehúso,Danny Ocean,54+1,Reggaeton,206
+Un Año,Reik & Maluma,Ahora,Reggaeton,253
+Loco Contigo,DJ Snake& J Balvin & Tyga,Carte Blanche,Reggaeton,185
+Mala Mía,Maluma,F.A.M.E.,Reggaeton,197
+Borró Cassette,Maluma,Pretty Boy& Dirty Boy,Reggaeton,229
+Que Pretendes,J Balvin & Bad Bunny,Oasis,Reggaeton,198
+Si Tu Novio Te Deja Sola, J Balvin & Bad Bunny, Oasis,Reggaeton,206
+Te Robaré,Nicky Jam & Ozuna,Íntimo,Reggaeton,202
+Que Calor,Major Lazer ft. J Balvin & El Alfa,Single,Reggaeton,251
+Mayores,Becky G ft. Bad Bunny,Single,Reggaeton,205
+Ram Pam Pam,Natti Natasha & Becky G,Single,Reggaeton,223
+Fiel,Los Legendarios ft. Wisin & Jhay Cortez,Single,Reggaeton,220
+De Vuelta Pa’ La Vuelta,Daddy Yankee & Marc Anthony,Single,Reggaeton,225
+PROBLEMA,Daddy Yankee,Single,Reggaeton,210
+Pepas,Farruko,La 167,Reggaeton,240
+Yonaguni,Bad Bunny,Single,Reggaeton,214
+La Canción,J Balvin & Bad Bunny,Oasis,Reggaeton,244
+Lento,Thalía & Gente de Zona,Valiente,Reggaeton,217
+La Respuesta,Becky G & Maluma,Single,Reggaeton,213
+Pa' Romperla, Bad Bunny & Don Omar, Las Que No Iban a Salir, Reggaeton,209
+My Love Mine All Mine,Mitski,The Land is Inhospitable and So Are We,Indie-folk,217
+True Blue,Boygenius,the record,Indie-folk,456
+A&W,Lana del Rey,Did you know that there´s a tunnel under Ocean Blvd,Indie-folk,713
+Will Anybody Ever Love Me?,Sufjan Stevens,Will Anybody Ever Love Me?,Indie-folk,409
+Glue Song (feat Clairo),beabadoobee&Clairo,single,Indie-folk,215
+Sick,Dominic Fike,Sunburn,Indie-folk,221
+To Love,Suki Waterhouse,To Love,Indie-folk,356
+Modern Girl,Bleachers,Modern Girl,Indie-folk,343
+Invincible,Omar Apollo ft. Daniel Caesar,Ivory,Indie-folk,336
+The perfect pair,beabadoobee,Beatopia,Indie-folk,257
+About You,the 1975,Being Funny In A Foreign Language,Indie-folk,526
+Anything But Me,MUNA,MUNA,Indie-folk,333
+Change,Djo,DECIDE,Indie-folk,257
+Weird Goodbyes (feat. Bon Iver),The National&Bon Iver,single,Indie-folk,503
+The Only Heartbreaker,Mitski,Laurel Hell,Indie-folk,304
+Mistakes,Sharon Van Etten,We've Been Going About This All Wrong,Indie-folk,359
+There'd Better Be A Mirrorball,Arctic Monkeys,The Car,Indie-folk,425
+I Will Follow You Into the Dark,Death Cab For Cutie,Plans,Indie-folk,309
+The 1,Taylor Swift,Folklore,Indie-folk,330
+Exile (feat. Bon Iver),Taylor Swift,Folklore,Indie-folk,445
+Seven,Taylor Swift,Folklore,Indie-folk,328
+Skinny Love,Bon Iver,For Emma&Forever Ago,Indie-folk,358
+Willow,Taylor Swift,Evermore,Indie-folk,334
+The Lakes,Taylor Swift,Folklore (Deluxe Edition),Indie-folk,331
+Holocene,Bon Iver,Bon Iver,Indie-folk,536
+Stubborn Love,The Lumineers,The Lumineers,Indie-folk,439
+Coney Island (feat. The National),Taylor Swift ft The National,Evermore,Indie-folk,435
+Cowboy Like Me,Taylor Swift,Evermore,Indie-folk,435
+To Be Alone With You,Sufjan Stevens,Seven Swans,Indie-folk,248
+Fare Thee Well (Dink's Song),Oscar Isaac&Marcus Mumford,Inside Llewyn Davis Soundtrack,Indie-folk,300
+Mirrorball,Taylor Swift,Folklore,Indie-folk,328
+Invisible String,Taylor Swift,Folklore,Indie-folk,412
+Champagne Problems,Taylor Swift,Evermore,Indie-folk,404
+Flowers in Your Hair,The Lumineers,The Lumineers,Indie-folk,149
+Gold Rush,Taylor Swift,Evermore,Indie-folk,305
+Ivy,Taylor Swift,Evermore,Indie-folk,420
+Tolerate It,Taylor Swift,Evermore,Indie-folk,405
+Sleep On The Floor,The Lumineers,Cleopatra,Indie-folk,245
+Georgia,Phoebe Bridgers,Punisher,Indie-folk,252
+Motion Sickness,Phoebe Bridgers,Stranger in the Alps,Indie-folk,182
+Nothing Arrived,Villagers,Awayland,Indie-folk,252
+River,Leon Bridges,Coming Home,Indie-folk,239
+Riptide,Vance Joy,Dream Your Life Away,Indie-folk,189
+My Silver Lining,First Aid Kit,Stay Gold,Indie-folk,204
+Wilder Mind,Mumford & Sons,Wilder Mind,Indie-folk,285
+Fireproof,The National, Trouble Will Find Me,Indie-folk,142
+High Hope,Glen Hansard,Didn't He Ramble,Indie-folk,258
+Lakeshore Drive,Alec Benjamin,American Eyes,Indie-folk,209
+Wide Eyes,Local Natives,Gorilla Manor,Indie-folk,248
+Sea of Love,Cat Power,Wanderer,Indie-folk,171
+Master Hunter,Laura Marling,Once I Was an Eagle,Indie-folk,193
+Tiger Mountain Peasant Song,Fleet Foxes,Fleet Foxes,Indie-folk,201
+Heart Beats Slow,Angus & Julia Stone,Angus & Julia Stone,Indie-folk,209
+Firecracker,Said The Whale,Hawaiii,Indie-folk,208
+Home,Edward Sharpe & The Magnetic Zeros,Up From Below,Indie-folk,278
+The Cave,Mumford & Sons,Sigh No More,Indie-folk,240
+10.000 Emerald Pools,BØRNS,Dopamine,Indie-folk,176
+Dog Days Are Over,Florence + The Machine,Lungs,Indie-folk,232
+Mykonos,Fleet Foxes,Sun Giant,Indie-folk,268
+Simple Song,The Shins,Port of Morrow,Indie-folk,238
+Homegrown,Haux,All We've Known,Indie-folk,209
+From Eden,Hozier,Hozier,Indie-folk,237
+King and Lionheart,Of Monsters and Men,My Head Is an Animal,Indie-folk,261
+Into the Wild,Lewis Watson,The Wild,Indie-folk,207
+Down By The Water,The Decemberists,The King Is Dead,Indie-folk,203
+Open Season,High Highs,Open Season,Indie-folk,276
+Brother,Mighty Oaks,Howl,Indie-folk,254
+Ceilings,Local Natives,Hummingbird,Indie-folk,285
+Two Weeks,Grizzly Bear,Veckatimest,Indie-folk,252
+Old Pine,Ben Howard,Every Kingdom,Indie-folk,320
+Santa Fe,Beirut,The Rip Tide,Indie-folk,204
+Giant,Jade Bird,Wild Silence,Indie-folk,187
+Love Love Love,Of Monsters and Men,My Head Is an Animal,Indie-folk,232
+Rhythm of Love,Plain White T's,Wonders of the Younger,Indie-folk,232
+Settle Down,Kimbra,Vows,Indie-folk,233
+Walk,Bad Suns,Language & Perspective,Indie-folk,226
+Peach,Sasha Sloan,Losers - EP,Indie-folk,195
+Home,Phillip Phillips,The World from the Side of the Moon,Indie-folk,224
+Amsterdam,Gregory Alan Isakov,This Empty Northern Hemisphere,Indie-folk,218
+The Funeral,Band of Horses,Everything All the Time,Indie-folk,319
+Take Me to Church,Hozier,Hozier,Indie-folk,241
+Youth,Daughter,If You Leave,Indie-folk,275
+Sloom,Of Monsters and Men,My Head Is an Animal,Indie-folk,281
+Postcards from Italy,Beirut,Gulag Orkestar,Indie-folk,269
+Coffee,Sylvan Esso,Sylvan Esso,Indie-folk,217
+San Francisco,The Mowgli's,Waiting for the Dawn,Indie-folk,180
+1957,Milo Greene,Milo Greene,Indie-folk,206
+Out of My League,Fitz and The Tantrums,More Than Just a Dream,Indie-folk,199
+Step,Vampire Weekend,Modern Vampires of the City,Indie-folk,239
+Skinny Love,Birdy,Birdy,Indie-folk,222
+King of Spain,The Tallest Man on Earth,The Wild Hunt,Indie-folk,180
+Poison & Wine,The Civil Wars,Barton Hollow,Indie-folk,215
+First Aid Kit,The Lion's Roar,single,Indie-folk,208
+Lion's Den,Kings of Convenience,Declaration of Dependence,Indie-folk,192
+Waiting on the World to Change,John Mayer,Continuum,Indie-folk,221
+Ghosts,James Vincent McMorrow,Early in the Morning,Indie-folk,258
+Rivers and Roads,The Head and the Heart,The Head and the Heart,Indie-folk,270
+Sigh No More,Mumford & Sons,Sigh No More,Indie-folk,225
+The Girl,City and Colour,Bring Me Your Love,Indie-folk,208
+5 Years Time,Noah and the Whale,Peaceful the World Lays Me Down,Indie-folk,213
 No Guidance,Chris Brown ft. Drake,Indigo,R&B,420
 Adorn,Miguel,Kaleidoscope Dream,R&B,313
 Say My Name,Destiny's Child,The Writing's on the Wall,R&B,431
@@ -105,3 +411,90 @@ Superstar,Usher,Confessions,R&B,311
 Location,Khalid,American Teen,R&B,339
 I Wanna Dance With Somebody (Who Loves Me),Whitney Houston,Whitney,R&B,451
 Best Part,Daniel Caesar ft. H.E.R.,Freudian,R&B,329
+Fallin',Alicia Keys,Songs in A Minor,R&B,201
+If I Ain't Got You,Alicia Keys,The Diary of Alicia Keys,R&B,229
+Adore,Prince,sing o the times,R&B,631
+No Scrubs,TLC,Fanmail,R&B,334
+Let's Stay Together,Al Green,1972,R&B,319
+Ain't No Mountain High Enough,Marvin Gaye ft. Tammi Terrell,united,R&B,231
+Don't You Worry 'Bout a Thing,Stevie Wonder,single,R&B,401
+I'll Make Love to You,Boyz II Men,II,R&B,356
+I'll Be There,The Jackson 5,Third Album,R&B,357
+Ain't Nobody,Chaka Khan,Epiphany,R&B,440
+Crazy in Love,Beyoncé ft. Jay-Z,Dangerously in love,R&B,355
+My Girl,The Temptations,The temptations sing smokey,R&B,245
+Boogie Oogie Oogie,A Taste of Honey,single,R&B,405
+Midnight Train to Georgia,Gladys Knight & The Pips,Imagination,R&B,439
+Always on Time,Ja Rule ft. Ashanti,pain is love,R&B,405
+Say It Loud – I'm Black and I'm Proud,James Brown,the 50th anniversary collection,R&B,247
+Let's Get It On,Marvin Gaye,single,R&B,451
+You Make Me Feel Like A Natural Woman,Aretha Franklin,Lady Soul,R&B,245
+I'll Be Missing You,Diddy & Faith Evans ft. 112,bad boy's 10th anniversary,R&B,501
+Back to Life (However Do You Want Me),Soul II Soul ft. Caron Wheeler,club classics,R&B,352
+One More Chance,The Notorious B.I.G.,greatest hits,R&B,428
+All My Life,K-Ci & JoJo,love always,R&B,531
+No Diggity,Blackstreet ft. Dr. Dre & Queen Pen,another level,R&B,504
+Be Without You,Mary J. Blige,the breakthrough,R&B,406
+Kiss from a Rose,Seal,Seal,R&B,448
+Ordinary People,John Legend,Get lifted,R&B,441
+Fantasy,Mariah Carey,daydream,R&B,403
+I Heard It Through the Grapevine,Marvin Gaye,in the groove,R&B,314
+End of the Road,Boyz II Men,Cooleyhighharmony,R&B,551
+Rock Steady,Aretha Franklin,young gifted and black,R&B,313
+This Is How We Do It,Montell Jordan,single,R&B,357
+Best of My Love,The Emotions,Rejoice,R&B,340
+You're All I Need to Get By,Marvin Gaye & Tammi Terrell,you're all I need,R&B,253
+Hypnotize,The Notorious B.I.G.,TBT summer,R&B,350
+The Boy is Mine,Brandy & Monica,Never say never,R&B,454
+Family Affair,Mary J. Blige,no more drama,R&B,425
+Sexual Healing,Marvin Gaye,midnight love,R&B,358
+My Boo,Usher ft. Alicia Keys,confessions,R&B,343
+Waterfalls,TLC,crazysexycool,R&B,439
+Uptown Funk,Mark Ronson ft. Bruno Mars,uptown special,R&B,429
+Unbreak My Heart,Toni Braxton,secrets,R&B,430
+Bump n' Grind,R. Kelly,12 play,R&B,416
+Heard It All Before,Sunshine Anderson,your woman,R&B,455
+Grenade,Bruno Mars,doo-wops and hooligans,R&B,342
+I Wanna Dance With Somebody (Who Loves Me),Whitney Houston,Whitney,R&B,451
+Ignition (Remix),R. Kelly,chocolate factory,R&B,306
+If I Ain't Got You,Alicia Keys,The diary of Alicia Keys,R&B,348
+Let's Groove,Earth Wind & Fire,Raise!,R&B,539
+Ain't No Sunshine,Bill Withers,just as I am,R&B,205
+PYT (Pretty Young Thing),Michael Jackson,Thriller,R&B,359
+Water Runs Dry,Boyz II Men,II,R&B,321
+I Want You Back,The Jackson 5,single,R&B,256
+Smooth Operator,Sade,The best of sade,R&B,418
+On Bended Knee,Boyz II Men,II,R&B,529
+Gonna Make You Sweat (Everybody Dance Now),C+C Music Factory,single,R&B,404
+You Are the Sunshine of My Life,Stevie Wonder,Talking Book,R&B,258
+Just the Two of Us,Grover Washington Jr. ft. Bill Withers,Winelight,R&B,723
+Every Little Step,Bobby Brown,Don't be cruel,R&B,357
+Let's Stay Together,Tina Turner,All the best,R&B,518
+You Are Not Alone,Michael Jackson,single,R&B,545
+Let Me Love You,Mario,single,R&B,416
+The Way You Make Me Feel,Michael Jackson,bad,R&B,458
+My Prerogative,Bobby Brown,don´t be cruel,R&B,451
+Tell Me,Groove Theory,Groove Theory,R&B,356
+Freak Like Me,Adina Howard,Do you wanna ride?,R&B,413
+Hotline Bling,Drake,Views,R&B,427
+Lady Marmalade,Labelle,Nightbirds,R&B,357
+Ribbon in the Sky,Stevie Wonder,Original Musiquarium,R&B,537
+Breathe Again,Toni Braxton,Toni Braxton,R&B,429
+Smooth,Santana ft. Rob Thomas,Supernatural,R&B,454
+Independent Women,Destiny's Child,Survivor,R&B,341
+Where Is the Love?,Black Eyed Peas,Elephunk,R&B,432
+Me Myself and I,Beyoncé,Dangerously in love,R&B,501
+Waterfalls,TLC,crazysexycool,R&B,439
+Candy Rain,Soul for Real,single,R&B,436
+I Swear,All-4-One,All-4-One,R&B,419
+This Is How We Do It,Montell Jordan,single,R&B,357
+Adore,Prince,Purple Rain,R&B,301
+No Scrubs,TLC,FanMail,R&B,239
+Let's Stay Together,Al Green,Let's Stay Together,R&B,212
+Ain't No Mountain High Enough,Marvin Gaye & Tammi Terrell,United,R&B,158
+Don't You Worry 'Bout a Thing,Stevie Wonder,Innervisions,R&B,254
+I'll Make Love to You,Boyz II Men,II,R&B,232
+I'll Be There,The Jackson 5,Third Album,R&B,191
+Ain't Nobody,Chaka Khan,Stompin' at the Savoy: Live,R&B,267
+Crazy in Love,Beyoncé ft. Jay-Z,Dangerously in Love,R&B,235
+My Girl,The Temptations,The Temptations Sing Smokey,R&B,170
