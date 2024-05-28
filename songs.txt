@@ -117,7 +117,7 @@ Wildest Dreams,Taylor Swift,1989 (Taylor's Version),Pop,340
 Nonsense,Sabrina Carpenter,emails i can´t send,Pop,243
 Feather,Sabrina Carpenter,emails i can´t send,Pop,305
 New Romantics,Taylor Swift,1989 (Taylor's Version),Pop,350
-Good Luck&Babe!,Chappell Roan,single,Pop,338
+Good Luck Babe!,Chappell Roan,single,Pop,338
 Lover,Taylor Swift,Lover,Pop,341
 Pretty Girls,Renee Rapp,Snow Angel,Pop,226
 Too Well,Renee Rapp,Everything To Everyone,Pop,236
@@ -498,3 +498,503 @@ I'll Be There,The Jackson 5,Third Album,R&B,191
 Ain't Nobody,Chaka Khan,Stompin' at the Savoy: Live,R&B,267
 Crazy in Love,Beyoncé ft. Jay-Z,Dangerously in Love,R&B,235
 My Girl,The Temptations,The Temptations Sing Smokey,R&B,170
+Lose Yourself,Eminem,8 Mile,hip hop,526
+Juicy,The Notorious B.I.G.,Ready to Die,hip hop,502
+N.Y. State of Mind,Nas,Illmatic,hip hop,454
+C.R.E.A.M.,Wu-Tang Clan,Enter the Wu-Tang (36 Chambers),hip hop,428
+HUMBLE.,Kendrick Lamar,DAMN.,hip hop,297
+Sicko Mode,Travis Scott,ASTROWORLD,hip hop,513
+All of the Lights,Kanye West,My Beautiful Dark Twisted Fantasy,hip hop,459
+Hotline Bling,Drake,Views,hip hop,416
+Old Town Road,Lil Nas X,7 EP,hip hop,198
+In Da Club,50 Cent,Get Rich or Die Tryin',hip hop,359
+God's Plan,Drake,Scorpion,hip hop,332
+Alright,Kendrick Lamar,To Pimp a Butterfly,hip hop,360
+Mo Money Mo Problems,The Notorious B.I.G.,Life After Death,hip hop,447
+Big Pimpin',Jay-Z,Vol. 3... Life and Times of S. Carter,hip hop,459
+Without Me,Eminem,The Eminem Show,hip hop,429
+Nuthin' but a 'G' Thang,Dr. Dre,The Chronic,hip hop,358
+Ms. Jackson,OutKast,Stankonia,hip hop,416
+California Love,2Pac,All Eyez on Me,hip hop,446
+Stan,Eminem,The Marshall Mathers LP,hip hop,668
+Can't Hold Us,Macklemore & Ryan Lewis,The Heist,hip hop,458
+Stronger,Kanye West,Graduation,hip hop,502
+All the Stars,Kendrick Lamar,Black Panther: The Album,hip hop,333
+I Got 5 on It,Luniz,Operation Stackola,hip hop,413
+Bodak Yellow,Cardi B,Invasion of Privacy,hip hop,325
+XO TOUR Llif3,Lil Uzi Vert,Luv Is Rage 2,hip hop,315
+Rap God,Eminem,The Marshall Mathers LP 2,hip hop,606
+Run This Town,Jay-Z,The Blueprint 3,hip hop,448
+Gin and Juice,Snoop Dogg,Doggystyle,hip hop,404
+Gangsta's Paradise,Coolio,Gangsta's Paradise,hip hop,249
+The Real Slim Shady,Eminem,The Marshall Mathers LP,hip hop,445
+Mercy,Kanye West,Cruel Summer,hip hop,536
+Started from the Bottom,Drake,Nothing Was the Same,hip hop,333
+Money Trees,Kendrick Lamar,good kid m.A.A.d city,hip hop,607
+The Way I Am,Eminem,The Marshall Mathers LP,hip hop,428
+Feel Good Inc.,Gorillaz,Demon Days,hip hop,342
+'Till I Collapse,Eminem,The Eminem Show,hip hop,428
+Lose Control,Missy Elliott,The Cookbook,hip hop,338
+Congratulations,Post Malone,Stoney,hip hop,354
+No Role Modelz,J. Cole,2014 Forest Hills Drive,hip hop,518
+99 Problems,Jay-Z,The Black Album,hip hop,344
+Black and Yellow,Wiz Khalifa,Rolling Papers,hip hop,406
+Sucker for Pain,Lil Wayne,Suicide Squad: The Album,hip hop,414
+Mask Off,Future,FUTURE,hip hop,358
+Walk This Way,Run-D.M.C.,Raising Hell,hip hop,308
+Big Poppa,The Notorious B.I.G.,Ready to Die,hip hop,426
+In the End,Linkin Park,Hybrid Theory,hip hop,348
+The Next Episode,Dr. Dre,2001,hip hop,302
+All I Do Is Win,DJ Khaled,Victory,hip hop,337
+What You Know,T.I.,King,hip hop,424
+Work It,Missy Elliott,Under Construction,hip hop,412
+Bad and Boujee,Migos,Culture,hip hop,556
+Black Beatles,Rae Sremmurd,SremmLife 2,hip hop,431
+Trap Queen,Fetty Wap,Fetty Wap,hip hop,403
+Sugar,Brockhampton,Sugar,hip hop,317
+Savage Love,Jawsh 685,Savage Love,hip hop,232
+Rockstar,Post Malone,Beerbongs & Bentleys,hip hop,301
+DNA.,Kendrick Lamar,DAMN.,hip hop,355
+Man of the Year,ScHoolboy Q,Oxymoron,hip hop,348
+No Limit,G-Eazy,The Beautiful & Damned,hip hop,409
+Work,ASAP Ferg,Trap Lord,hip hop,403
+Blessings,Big Sean,Dark Sky Paradise,hip hop,406
+Good Life,Kanye West,Graduation,hip hop,336
+The Monster,Eminem,The Marshall Mathers LP 2,hip hop,409
+I'm on One,DJ Khaled,We the Best Forever,hip hop,406
+F**kin' Problems,ASAP Rocky,Long.Live.ASAP,hip hop,412
+Timmy Turner,Desiigner,New English,hip hop,301
+Jumpman,Drake,What a Time to Be Alive,hip hop,358
+Ric Flair Drip,Offset,Without Warning,hip hop,228
+Taste,Tyga,Legendary,hip hop,330
+For Free,DJ Khaled,Major Key,hip hop,315
+Antidote,Travis Scott,Rodeo,hip hop,414
+Rockstar,DaBaby,Blame It on Baby,hip hop,318
+Stir Fry,Migos,Culture II,hip hop,352
+Ballin',Mustard,Perfect Ten,hip hop,353
+The London,Young Thug,So Much Fun,hip hop,349
+Clout,Offset,Father of 4,hip hop,313
+Panini,Lil Nas X,7 EP,hip hop,210
+Suge,DaBaby,Baby on Baby,hip hop,254
+Highest in the Room,Travis Scott,JackBoys,hip hop,282
+I Like It,Cardi B,Invasion of Privacy,hip hop,439
+No Guidance,Chris Brown,Indigo,hip hop,414
+Boredom,Tyler the Creator,Flower Boy,hip hop,531
+Butterfly Effect,Travis Scott,ASTROWORLD,hip hop,311
+First Class,Jack Harlow,Come Home the Kids Miss You,hip hop,230
+Dior,Pop Smoke,Meet the Woo 2,hip hop,318
+Mood,24kGoldn,El Dorado,hip hop,225
+Money in the Grave,Drake,The Best in the World Pack,hip hop,325
+Toosie Slide,Drake,Dark Lane Demo Tapes,hip hop,252
+For the Night,Pop Smoke,Shoot for the Stars Aim for the Moon,hip hop,320
+What's Poppin',Jack Harlow,Sweet Action,hip hop,214
+Lemonade,Internet Money,B4 the Storm,hip hop,222
+Love the Way You Lie,Eminem,Recovery,hip hop,444
+Goosebumps,Travis Scott,Birds in the Trap Sing McKnight,hip hop,368
+Laugh Now Cry Later,Drake,Certified Lover Boy,hip hop,424
+Lucid Dreams,Juice WRLD,Goodbye & Good Riddance,hip hop,399
+Nonstop,Drake,Scorpion,hip hop,323
+Rosa Parks,OutKast,Aquemini,hip hop,504
+Hypnotize,The Notorious B.I.G.,Life After Death,hip hop,350
+A Milli,Lil Wayne,Tha Carter III,hip hop,354
+The Message,Grandmaster Flash and the Furious Five,The Message,hip hop,447
+I Walk the Line,Johnny Cash,With His Hot and Blue Guitar!,country,233
+Ring of Fire,Johnny Cash,Single,country,249
+Jolene,Dolly Parton,Jolene,country,258
+Take Me Home,Country Roads& John Denver,Single,country,318
+Stand by Your Man,Tammy Wynette,Stand by Your Man,country,271
+The Gambler,Kenny Rogers,Kenny,country,314
+Your Cheatin' Heart,Hank Williams,Single,country,250
+Crazy,Patsy Cline,Patsy Cline Showcase,country,241
+He Stopped Loving Her Today,George Jones,I Am What I Am,country,302
+Friends in Low Places,Garth Brooks,No Fences,country,425
+Wagon Wheel,Old Crow Medicine Show,OCMS,country,328
+Achy Breaky Heart,Billy Ray Cyrus,Some Gave All,country,305
+On the Road Again,Willie Nelson,Honeysuckle Rose,country,218
+Blue Eyes Crying in the Rain,Willie Nelson,Red Headed Stranger,country,240
+Blue Moon of Kentucky,Bill Monroe & His Blue Grass Boys,Single,country,205
+Coal Miner's Daughter,Loretta Lynn,Coal Miner's Daughter,country,300
+Mamas Don't Let Your Babies Grow Up to Be Cowboys,Waylon Jennings & Willie Nelson,Waylon & Willie,country,251
+The Devil Went Down to Georgia,Charlie Daniels Band,Million Mile Reflections,country,336
+El Paso,Marty Robbins,Gunfighter Ballads and Trail Songs,country,411
+Forever and Ever,Amen&Randy Travis,Always & Forever,country,334
+Country Roads,John Denver,Single,country,318
+Wichita Lineman,Glen Campbell,Single,country,306
+Hello Darlin',Conway Twitty,Hello Darlin',country,254
+The Night the Lights Went Out in Georgia,Vicki Lawrence,Newborn Woman,country,331
+When You Say Nothing at All,Alison Krauss & Union Station,Now That I've Found You: A Collection,country,355
+I Will Always Love You,Dolly Parton,Jolene,country,256
+You're Still the One,Shania Twain,Come On Over,country,332
+Go Rest High on That Mountain,Vince Gill,When Love Finds You,country,450
+Wagon Wheel,Darius Rucker,True Believers,country,432
+It's Five O'Clock Somewhere,Alan Jackson & Jimmy Buffett,Greatest Hits Volume II,country,333
+Before He Cheats,Carrie Underwood,Some Hearts,country,351
+Wide Open Spaces,Dixie Chicks,Wide Open Spaces,country,325
+Amazed,Lonestar,Lonely Grill,country,400
+Live Like You Were Dying,Tim McGraw,Live Like You Were Dying,country,430
+Independence Day,Martina McBride,The Way That I Am,country,333
+Breathe,Faith Hill,Breathe,country,404
+Where Were You (When the World Stopped Turning),Alan Jackson,Drive,country,537
+Whiskey Lullaby,Brad Paisley & Alison Krauss,Mud on the Tires,country,550
+I Hope You Dance,Lee Ann Womack,I Hope You Dance,country,409
+The House That Built Me,Miranda Lambert,Revolution,country,334
+Love Story,Taylor Swift,Fearless,country,336
+Bless the Broken Road,Rascal Flatts,Feels Like Today,country,337
+Hurt,Johnny Cash,American IV: The Man Comes Around,country,324
+Jesus Take the Wheel,Carrie Underwood,Some Hearts,country,312
+Blue,LeAnn Rimes,Blue,country,209
+Cruise,Florida Georgia Line,Here's to the Good Times,country,314
+It's Your Love,Tim McGraw & Faith Hill,Everywhere,country,329
+Need You Now,Lady A,Need You Now,country,342
+Die a Happy Man,Thomas Rhett,Tangled Up,country,320
+Check Yes or No,George Strait,Strait Out of the Box,country,310
+The Dance,Garth Brooks,Ropin' the Wind,country,339
+My Maria,Brooks & Dunn,Borderline,country,323
+The River,Garth Brooks,Ropin' the Wind,country,339
+Mama Tried,Merle Haggard,Sing Me Back Home,country,214
+Strawberry Wine,Deana Carter,Did I Shave My Legs for This?,country,424
+The Thunder Rolls,Garth Brooks,No Fences,country,343
+In Color,Jamey Johnson,That Lonesome Song,country,444
+Amarillo by Morning,George Strait,Strait from the Heart,country,260
+Could I Have This Dance,Anne Murray,Anne Murray's Greatest Hits,country,204
+Folsom Prison Blues,Johnny Cash,Single,country,255
+Chattahoochee,Alan Jackson,A Lot About Livin' (And a Little 'bout Love),country,223
+I Walk the Line,Johnny Cash,With His Hot and Blue Guitar!,country,233
+Don't Rock the Jukebox,Alan Jackson,Don't Rock the Jukebox,country,210
+The Night the Lights Went Out in Georgia,Vicki Lawrence,Newborn Woman,country,331
+When You Say Nothing at All,Alison Krauss & Union Station,Now That I've Found You: A Collection,country,355
+Good Hearted Woman,Waylon Jennings & Willie Nelson,Waylon & Willie,country,258
+Hello Darlin',Conway Twitty,Hello Darlin',country,254
+Mama Tried,Merle Haggard,Sing Me Back Home,country,214
+Rose Garden,Lynn Anderson,Rose Garden,country,237
+Coal Miner's Daughter,Loretta Lynn,Coal Miner's Daughter,country,300
+Country Boy (You Got Your Feet in L.A.),Glen Campbell,Southern Nights,country,318
+Crazy,Patsy Cline,Patsy Cline Showcase,country,241
+She's in Love with the Boy,Trisha Yearwood,Trisha Yearwood,country,280
+D-I-V-O-R-C-E,Tammy Wynette,D-I-V-O-R-C-E,country,169
+A Boy Named Sue,Johnny Cash,At San Quentin,country,228
+Jambalaya (On the Bayou),Hank Williams,Single,country,174
+Tim McGraw,Taylor Swift,Taylor Swift,country,235
+Picture to Burn,Taylor Swift,Taylor Swift,country,186
+Should've Said No,Taylor Swift,Taylor Swift,country,250
+Our Song,Taylor Swift,Taylor Swift,country,198
+Teardrops on My Guitar,Taylor Swift,Taylor Swift,country,207
+Stay Beautiful,Taylor Swift,Taylor Swift,country,233
+Fearless,Taylor Swift,Fearless,country,240
+Fifteen,Taylor Swift,Fearless,country,288
+Breathe,Taylor Swift,Fearless,country,266
+Tell Me Why,Taylor Swift,Fearless,country,208
+You're Not Sorry,Taylor Swift,Fearless,country,244
+The Way I Loved You,Taylor Swift,Fearless,country,229
+Forever & Always,Taylor Swift,Fearless,country,232
+Mean,Taylor Swift,Speak Now,country,232
+The Story of Us,Taylor Swift,Speak Now,country,233
+Never Grow Up,Taylor Swift,Speak Now,country,248
+The Moment I Knew,Taylor Swift,Red,country,245
+Come Back... Be Here,Taylor Swift,Red,country,227
+Girl at Home,Taylor Swift,Red,country,222
+Treacherous,Taylor Swift,Red,country,244
+The Lucky One,Taylor Swift,Red,country,239
+Tennessee Whiskey,Chris Stapleton,Traveller,country,293
+Body Like a Back Road,Sam Hunt,Single,country,192
+Die From A Broken Heart,Maddie & Tae,The Way It Feels,country,209
+Pedro Navaja,Rubén Blades,Siembra,salsa,520
+Aquel Lugar,Adolescent's Orquesta,Nubes de Fantasía,salsa,260
+Periódico de Ayer,Héctor Lavoe,De Ti Depende,salsa,334
+El Cantante,Héctor Lavoe,Comedia,salsa,498
+Juana Peña,Héctor Lavoe,La Voz,salsa,334
+La Murga,Héctor Lavoe,El Sabio,salsa,422
+Todo Tiene Su Final,Héctor Lavoe,Reventó,salsa,444
+El Gran Varón,Willie Colón & Héctor Lavoe,Vigilante,salsa,447
+Triste y Vacia,Héctor Lavoe,De Ti Depende,salsa,355
+La Cartera,Carlos Vives,La Tierra del Olvido,salsa,259
+Vivir lo Nuestro,Marc Anthony & La India,Contra la Corriente,salsa,337
+Quítate Tú,Fania All Stars,Fania All Stars Live at Yankee Stadium,salsa,412
+Aparentemente,Tony Vega,Aparentemente,salsa,371
+Oiga Mire Vea,Guayacán Orquesta,Con Sabor Tropical,salsa,375
+Así Es la Mujer,Africando,Troobado,salsa,413
+Salsa y Control,Rubén Blades & Willie Colón,Maestra Vida: Primera Parte,salsa,534
+La Rebelión,Joe Arroyo,La Rebelión,salsa,325
+Cali Pachanguero,Grupo Niche,No Hay Quinto Malo,salsa,365
+Cachita,Celia Cruz,Celia y Tito Puente en España,salsa,225
+Buscando Guayaba,Rubén Blades,Metiendo Mano,salsa,290
+Anacaona,Cheo Feliciano,With a Little Help From My Friend,salsa,339
+Amor Verdadero,Afro-Cuban All Stars,A Toda Cuba le Gusta,salsa,325
+No Me Digan Que Es Muy Tarde,Gilberto Santa Rosa,Punto de Vista,salsa,304
+Mujer Celosa,The Latin Brothers,Mujer Celosa,salsa,365
+Si Te Dicen,El Gran Combo de Puerto Rico,¡Aqui Estamos y... de Verdad!,salsa,363
+Son de la Loma,Orquesta Aragón,Authentic Cuba Vol.1,salsa,272
+Me Voy Pa' Cali,Oscar D'León,El Diablo de la Salsa,salsa,409
+Aguanile,Marc Anthony & Héctor Lavoe,El Cantante (Soundtrack),salsa,403
+Amigo Mío,Afro-Cuban All Stars,A Toda Cuba le Gusta,salsa,399
+Fuego en el 23,La Sonora Ponceña,Fuego en el 23,salsa,351
+El Preso,Fruko y Sus Tesos,Tesura,salsa,349
+Aguanile,Héctor Lavoe,El Sabio,salsa,407
+Son de la Loma,Celia Cruz,Queen of Salsa,salsa,275
+Bemba Colorá,Celia Cruz,Queen of Salsa,salsa,225
+Amor Bonito,Africando,Martina,salsa,358
+Usted Abusó,Celia Cruz & Willie Colón,Only They Could Have Made This Album,salsa,369
+El Raton,Cheo Feliciano,The Singer,salsa,324
+Soy Guajiro,Rubén Blades,Maestra Vida: Segunda Parte,salsa,314
+El Cantante,Marc Anthony,El Cantante (Soundtrack),salsa,413
+Lágrimas Negras,Banda de Los Muertos,Lágrimas Negras,salsa,361
+Hacha y Machete,Héctor Lavoe,La Voz,salsa,439
+Barranquillero Arrebatao,Fruko y Sus Tesos,Tesura,salsa,314
+A Preta Do Acarajé,Gilberto Gil,Samba do Avião,salsa,273
+Los Entierros,Rubén Blades,Busca Una Luz,salsa,466
+Siembra,Rubén Blades & Willie Colón,Siembra,salsa,535
+Me Libere,El Gran Combo de Puerto Rico,Me Libere,salsa,368
+La Llorona,El Gran Combo de Puerto Rico,Azucar,salsa,295
+Soy Guajiro,Buena Vista Social Club,Buena Vista Social Club,salsa,352
+Muevete,Rubén Blades,Nothing But The Truth,salsa,335
+Mambo Influenciado,Irakere,Cuba Libre,salsa,375
+Perfidia,Nat King Cole,20 Greatest Hits,salsa,171
+Vámonos Pa'l Monte,Eddie Palmieri,Harlem River Drive,salsa,547
+Bemba Colorá,Celia Cruz,Siempre Viviré,salsa,244
+Que Bonita Bandera,Ismael Rivera,Lo Mejor de lo Mejor de Ismael Rivera,salsa,210
+Sin Poderte Hablar,Willie Colón,Cosa Nuestra,salsa,327
+Que Le Den Candela,Celia Cruz,La Incomparable,salsa,200
+Talento de Televisión,Willie Colón,The Best,salsa,317
+Bemba Colorá,Rubén Blades & Willie Colón,Maestra Vida: Segunda Parte,salsa,254
+Plástico,Rubén Blades,Nothing But The Truth,salsa,349
+Me Voy Pa'l Pueblo,Rubén Blades,Rosa De Los Vientos,salsa,318
+Juan Pachanga,Rubén Blades,Maestra Vida: Segunda Parte,salsa,387
+La Pollera Colorá,Oscar D'León,La Pollera Colorá,salsa,258
+Amor de Mis Amores,Pedro Infante,Latin America,salsa,205
+Lo Que Pasó Pasó,Marc Anthony,Amar Sin Mentiras,salsa,321
+La Cura,Frankie Ruiz,La Rueda,salsa,434
+La Murga de Panamá,Willie Colón,Asalto Navideño,salsa,410
+Volveré,Oscar D'León,Así Soy,salsa,305
+Despacito,Luis Fonsi & Daddy Yankee,Single,salsa,228
+Busca Lo Tuyo,Willie Colón,The Best,salsa,290
+Que Bueno Baila Usted,Beny Moré,Boleros Inolvidables,salsa,196
+Juliana,El Gran Combo de Puerto Rico,30 Aniversario,salsa,269
+Azuquita Pa'l Café,El Gran Combo de Puerto Rico,¡Aqui Estamos y... de Verdad!,salsa,367
+Timbalero,Gran Combo de Puerto Rico,De Punta a Punta,salsa,248
+Vámonos Pa'l Monte,Eddie Palmieri,Vámonos Pa'l Monte,salsa,541
+Te Conozco Bacalao,Gilberto Santa Rosa,Intenso,salsa,298
+Que Precio Tiene el Cielo,Marc Anthony,Libre,salsa,311
+Píntame,Elvis Crespo,Píntame,salsa,254
+Juliana,La Sonora Carruseles,Máquina Total,salsa,319
+El Ratón,Cheo Feliciano,With a Little Help From My Friend,salsa,321
+Idilio,Willie Colón,The Best,salsa,298
+Pueblo Latino,Joe Arroyo,En Acción,salsa,314
+Te Conozco,Ricardo Arjona,Siempre,salsa,242
+Te Conozco Bacalao,Gilberto Santa Rosa,Intenso,salsa,298
+Perdóname,Gilberto Santa Rosa,Vivir Sin Ti,salsa,336
+La Llamada de Mi Ex,La Sonora Carruseles,Máquina Total,salsa,309
+Medley Boricua,Ismael Miranda,Algo de Mi,salsa,389
+No Hace Falta Nada,Víctor Manuelle,Inconfundible,salsa,311
+Volver a Comenzar,Café Quijano,Single,salsa,214
+Llorarás,Oscar D'León,La Leyenda,salsa,348
+Ahora Quien,Marc Anthony,Valió la Pena,salsa,370
+Ran Kan Kan,Tito Puente,Mambo Mambo - The Best of Tito Puente,salsa,196
+Bomba Carambomba,La Sonora Carruseles,Sonora Carruseles - 30 Pegaditas de Oro,salsa,353
+La Vida Es Un Carnaval,Celia Cruz,La Negra Tiene Tumbao,salsa,316
+Que Viva La Vida,Wisin,El Regreso del Sobreviviente,salsa,235
+Vivir Mi Vida,Marc Anthony,3.0,salsa,270
+La Gozadera,Gente de Zona & Marc Anthony,Visualízate,salsa,236
+Valió la Pena,Marc Anthony,Valió la Pena,salsa,298
+Yo No Sé Mañana,Luis Enrique,Ciclos,salsa,258
+Agua que Cae del Cielo,Ricardo Montaner,Con la London Metropolitan Orchestra,salsa,241
+Moliendo Café,Héctor Lavoe,Fania Records 1964-1980: The Original Sound of Latin New York,salsa,305
+Insomnia,Faithless,Insomnia,electronica,843
+Summertime Sadness,Lana Del Rey (Cedric Gervais Remix),Summertime Sadness,electronica,655
+Spaceman,Hardwell,Spaceman,electronica,422
+Latch,Disclosure ft. Sam Smith,Settle,electronica,417
+Language,Porter Robinson,Language,electronica,609
+Ghost Voices,Virtual Self,Virtual Self,electronica,543
+Blue Monday,New Order,Power Corruption & Lies,electronica,730
+Opus,Eric Prydz,Opus,electronica,903
+Zombie Nation,Kernkraft 400,Leichenschmaus,electronica,447
+Don't You Worry Child,Swedish House Mafia ft. John Martin,Until Now,electronica,646
+Firestone,Kygo ft. Conrad Sewell,Cloud Nine,electronica,433
+Faded,Alan Walker,Faded,electronica,332
+Promises,Nero,Welcome Reality,electronica,417
+The Veldt,Deadmau5 ft. Chris James,The Veldt,electronica,840
+Reload,Sebastian Ingrosso & Tommy Trash ft. John Martin,Reload,electronica,601
+Stay,Zedd & Alessia Cara,True Colors,electronica,330
+Shelter,Porter Robinson and Madeon,Shelter,electronica,349
+Wake Me Up,Avicii ft. Aloe Blacc,True,electronica,247
+Pjanoo,Eric Prydz,Pjanoo,electronica,382
+Bangarang,Skrillex ft. Sirah,Bangarang,electronica,236
+Pressure,Nadia Ali,Starkillers & Alex Kenji (Alesso Remix),electronica,358
+Sweet Disposition,The Temper Trap (Axwell & Dirty South Remix),Sweet Disposition,electronica,413
+Toulouse,Nicky Romero,Toulouse,electronica,316
+Lean On,Major Lazer & DJ Snake ft. MØ,Peace Is the Mission,electronica,177
+Easy,Mat Zo & Porter Robinson,Easy,electronica,432
+The Island,Pendulum,Immersion,electronica,440
+Icarus,Madeon,Adventure,electronica,194
+Bang My Head,David Guetta ft. Sia & Fetty Wap,Listen Again,electronica,200
+Cinema,Benny Benassi ft. Gary Go (Skrillex Remix),Electroman,electronica,514
+Better Off Alone,Alice Deejay,Who Needs Guitars Anyway?,electronica,177
+Hey Brother,Avicii,True,electronica,249
+Never Say Goodbye,Hardwell & Dyro ft. Bright Lights,Never Say Goodbye,electronica,332
+Don't Stop Believin',Journey (MYNGA Remix),Don't Stop Believin',electronica,374
+I Gotta Feeling,The Black Eyed Peas (David Guetta Remix),The E.N.D. World Tour,electronica,428
+Hey Ya!,OutKast (Kryptonik Remix),Speakerboxxx/The Love Below,electronica,319
+Let's Go,Calvin Harris ft. Ne-Yo,18 Months,electronica,229
+We Found Love,Rihanna ft. Calvin Harris,Talk That Talk,electronica,205
+Tsunami,DVBBS & Borgeous,Tsunami,electronica,300
+In the Air,Morgan Page & Sultan + Ned Shepard & BT ft. Angela McCluskey,In the Air,electronica,238
+Rattle,Bingo Players,Rattle EP,electronica,294
+Spectrum,Zedd ft. Matthew Koma,Clarity,electronica,226
+Take Over Control,Afrojack ft. Eva Simons,Forget the World,electronica,328
+Rise,Jonas Blue ft. Jack & Jack,Blue,electronica,210
+Symphony,Clean Bandit ft. Zara Larsson,What Is Love?,electronica,220
+Outside,Calvin Harris ft. Ellie Goulding,Motion,electronica,232
+Rockabye,Clean Bandit ft. Sean Paul & Anne-Marie,Rockabye,electronica,250
+Jackie Chan,Tiësto & Dzeko ft. Preme & Post Malone,Jackie Chan,electronica,198
+Something Just Like This,The Chainsmokers & Coldplay,Memories...Do Not Open,electronica,247
+Body,Loud Luxury ft. brando,Body,electronica,185
+Closer,The Chainsmokers ft. Halsey,Collage,electronica,244
+Stay With Me,Sam Smith (Rainer + Grimm Remix),Stay With Me,electronica,276
+Firestone,Kygo ft. Conrad Sewell (Gryffin Remix),Firestone,electronica,309
+Never Forget You,Zara Larsson & MNEK,So Good,electronica,217
+Middle,DJ Snake ft. Bipolar Sunshine,Encore,electronica,334
+Alone,Marshmello,Alone,electronica,253
+Silence,Marshmello ft. Khalid,Silence,electronica,181
+Happier,Marshmello ft. Bastille,Happier,electronica,207
+Wolves,Selena Gomez x Marshmello,Wolves,electronica,197
+Runaway (U & I),Galantis,Pharmacy,electronica,225
+Animals,Martin Garrix,Gold Skies,electronica,178
+Heroes (We Could Be),Alesso ft. Tove Lo,Forever,electronica,217
+Feel So Close,Calvin Harris,18 Months,electronica,237
+Titanium,David Guetta ft. Sia,Nothing but the Beat,electronica,405
+How Deep Is Your Love,Calvin Harris & Disciples,How Deep Is Your Love,electronica,204
+Don't Let Me Down,The Chainsmokers ft. Daya,Collage,electronica,207
+On My Mind,Don Diablo,On My Mind,electronica,188
+Waiting For Love,Avicii,Stories,electronica,234
+Rather Be,Clean Bandit ft. Jess Glynne,New Eyes,electronica,226
+Runaway,Afrojack ft. Spree Wilson,Forget the World,electronica,215
+This Is What You Came For,Calvin Harris ft. Rihanna,Single,electronica,226
+Riverside (Let's Go!),Sidney Samson,Riverside,electronica,340
+Titanium,David Guetta ft. Sia (Alesso Remix),Nothing but the Beat,electronica,329
+Latch,Disclosure ft. Sam Smith (Oliver Heldens Remix),Settle,electronica,345
+Hello,Martin Solveig & Dragonette,Smash,electronica,188
+Satisfaction,Benny Benassi,Hypnotica,electronica,414
+Animals,Martin Garrix (Oliver Heldens Remix),Single,electronica,304
+Reload,Sebastian Ingrosso & Tommy Trash ft. John Martin (Vocal Mix),Reload,electronica,516
+Toulouse,Nicky Romero (Tommy Trash Remix),Single,electronica,397
+In the Name of Love,Martin Garrix & Bebe Rexha,Single,electronica,195
+Wake Me Up,Avicii ft. Aloe Blacc (Avicii By Avicii Remix),True,electronica,245
+Lean On,Major Lazer & DJ Snake ft. MØ (Dillon Francis & Jauz Remix),Peace Is the Mission,electronica,182
+Ghost Voices,Virtual Self (Shadient Remix),Single,electronica,402
+Language,Porter Robinson (Kayzo & Gammer Remix),Single,electronica,320
+Blue Monday,New Order (Above & Beyond Remix),Single,electronica,415
+Insomnia,Faithless (Monster Mix),Insomnia,electronica,460
+Take Over Control,Afrojack ft. Eva Simons (Adam F Remix),Forget the World,electronica,327
+Faded,Alan Walker (Tiesto's Deep House Remix),Single,electronica,275
+Cinema,Benny Benassi ft. Gary Go (Skrillex Remix) (LUCA LUSH Flip),Single,electronica,322
+The Island,Pendulum (AN21 & Max Vangeli & Steve Angello Remix),Single,electronica,362
+Don't You Worry Child,Swedish House Mafia ft. John Martin (Promise Land Remix),Until Now,electronica,329
+Summertime Sadness,Lana Del Rey (Cedric Gervais Remix) (ETC!ETC! Remix),Summertime Sadness,electronica,245
+Spaceman,Hardwell (Carnage Festival Trap Remix),Single,electronica,260
+Bangarang,Skrillex ft. Sirah (Gammer Flip),Single,electronica,212
+Levels,Avicii (Skrillex Remix),Single,electronica,280
+Silence,Marshmello ft. Khalid (Illenium Remix),Single,electronica,218
+Sweet Disposition,The Temper Trap (Axwell & Dirty South Remix) (CamelPhat Remix),Single,electronica,363
+Firestone,Kygo ft. Conrad Sewell (Bassanova Remix),Single,electronica,301
+Stay,ft. Alessia Cara (Quintino Remix),Single,electronica,220
+Alone,Marshmello,Alone,electronica,253
+Happier,Marshmello ft. Bastille,Happier,electronica,207
+So What,Miles Davis,Kind of Blue,Jazz,905
+Take Five,Dave Brubeck,Time Out,Jazz,524
+Giant Steps,John Coltrane,Giant Steps,Jazz,557
+A Love Supreme,John Coltrane,A Love Supreme,Jazz,1144
+My Favorite Things,John Coltrane,My Favorite Things,Jazz,1323
+Blue in Green,Miles Davis,Kind of Blue,Jazz,332
+Round Midnight,Thelonious Monk,Thelonious Monk with John Coltrane,Jazz,365
+All Blues,Miles Davis,Kind of Blue,Jazz,696
+Birdland,Weather Report,Heavy Weather,Jazz Fusion,356
+Cantaloupe Island,Herbie Hancock,Empyrean Isles,Jazz,318
+Autumn Leaves,Cannonball Adderley,Somethin' Else,Jazz,677
+Footprints,Wayne Shorter,Adam's Apple,Jazz,471
+Song for My Father,Horace Silver,Song for My Father,Jazz,452
+Maiden Voyage,Herbie Hancock,Maiden Voyage,Jazz,444
+Mercy Mercy Mercy,Cannonball Adderley,Mercy Mercy Mercy Live at "The Club",Jazz,312
+Strange Fruit,Billie Holiday,The Best of Billie Holiday,Vocal Jazz,321
+Moanin',Art Blakey and the Jazz Messengers,Moanin',Hard Bop,599
+Watermelon Man,Herbie Hancock,Takin' Off,Jazz,424
+Night in Tunisia,Dizzy Gillespie,A Night in Tunisia,Jazz,563
+Goodbye Pork Pie Hat,Charles Mingus,Mingus Ah Um,Jazz,551
+In a Sentimental Mood,Duke Ellington & John Coltrane,Duke Ellington & John Coltrane,Jazz,275
+Chameleon,Herbie Hancock,Head Hunters,Jazz Fusion,925
+The Girl from Ipanema,Stan Getz & João Gilberto,Getz/Gilberto,Bossa Nova,345
+Stolen Moments,Oliver Nelson,The Blues and the Abstract Truth,Jazz,534
+Sing Sing Sing,Benny Goodman,The Famous 1938 Carnegie Hall Jazz Concert,Big Band,517
+Take the A Train,Duke Ellington,The Best of Duke Ellington,Jazz,297
+Lullaby of Birdland,Sarah Vaughan,Sarah Vaughan with Clifford Brown,Vocal Jazz,240
+Freddie Freeloader,Miles Davis,Kind of Blue,Jazz,628
+The Sidewinder,Lee Morgan,The Sidewinder,Hard Bop,620
+Straight No Chaser,Thelonious Monk,The Best of Thelonious Monk,Jazz,472
+Oleo,Sony Rollins,Saxophone Colossus,Jazz,380
+Black Coffee,Peggy Lee,Black Coffee with Peggy Lee,Vocal Jazz,311
+Caravan,Duke Ellington,The Best of Duke Ellington,Jazz,229
+Naima,John Coltrane,Giant Steps,Jazz,273
+Django,Modern Jazz Quartet,Django,Jazz,272
+April in Paris,Count Basie,April in Paris,Big Band,315
+Work Song,Nat Adderley,Work Song,Jazz,477
+Impressions,John Coltrane,Impressions,Jazz,591
+The Very Thought of You,Billie Holiday,All or Nothing at All,Vocal Jazz,296
+Mr. P.C.,John Coltrane,Giant Steps,Jazz,438
+Speak No Evil,Wayne Shorter,Speak No Evil,Jazz,488
+Desafinado,Stan Getz & Charlie Byrd,Jazz Samba,Bossa Nova,316
+Ornithology,Charlie Parker,Bird and Diz,Bebop,319
+Stella by Starlight,Miles Davis,The Musings of Miles,Jazz,324
+I've Got You Under My Skin,Ella Fitzgerald,Ella Fitzgerald Sings the Cole Porter Songbook,Vocal Jazz,335
+Mood Indigo,Duke Ellington,Mood Indigo,Jazz,207
+Yardbird Suite,Charlie Parker,The Charlie Parker Story,Bebop,267
+Cherokee,Charlie Barnet,The Complete Charlie Barnet,Big Band,202
+A Night in Tunisia,Art Blakey,The Best of Art Blakey,Jazz,598
+You'd Be So Nice to Come Home To,Coleman Hawkins,The Hawk Relaxes,Jazz,314
+I Can't Get Started,Bunny Berigan,The Essential Bunny Berigan,Jazz,294
+Blue Train,John Coltrane,Blue Train,Hard Bop,635
+Basin Street Blues,Louis Armstrong,Satch Plays Fats,New Orleans Jazz,345
+Anthropology,Charlie Parker,The Complete Savoy & Dial Studio Recordings,Bebop,331
+All the Things You Are,Art Tatum,The Best of the Pablo Group Masterpieces,Jazz,244
+Isfahan,Duke Ellington,The Far East Suite,Jazz,442
+West End Blues,Louis Armstrong,The Complete Hot Five and Hot Seven Recordings,New Orleans Jazz,211
+Solitude,Billie Holiday,Lady in Satin,Vocal Jazz,234
+I'm in the Mood for Love,Julie London,Julie Is Her Name,Vocal Jazz,240
+This Here,Cannonball Adderley,The Cannonball Adderley Quintet in San Francisco,Hard Bop,723
+Poinciana,Ahmad Jamal,At the Pershing: But Not for Me,Jazz,483
+Summertime,Ella Fitzgerald & Louis Armstrong,Porgy and Bess,Vocal Jazz,298
+Let's Get Lost,Chet Baker,Chet Baker Sings,Cool Jazz,271
+In a Silent Way,Miles Davis,In a Silent Way,Jazz Fusion,1132
+My Funny Valentine,Chet Baker,Chet Baker Sings,Cool Jazz,295
+Confirmation,Charlie Parker,Charlie Parker with Strings,Bebop,336
+Salt Peanuts,Dizzy Gillespie,The Champ,Jazz,370
+Donna Lee,Charlie Parker,The Charlie Parker Story,Bebop,168
+Bags' Groove,Milt Jackson & Thelonious Monk,Bags' Groove,Jazz,342
+Sugar,Stanley Turrentine,Sugar,Jazz,1002
+I've Got a Crush on You,Ella Fitzgerald,Ella Fitzgerald Sings the George and Ira Gershwin Songbook,Vocal Jazz,300
+How High the Moon,Sarah Vaughan,Sarah Vaughan in Hi-Fi,Vocal Jazz,304
+Lover Man,Billie Holiday,Lover Man,Vocal Jazz,266
+Round Midnight,Miles Davis,Round About Midnight,Jazz,357
+Jordu,Clifford Brown and Max Roach,Study in Brown,Hard Bop,453
+Laura,Charlie Parker,Charlie Parker with Strings,Bebop,275
+Four,Miles Davis,Blue Haze,Jazz,275
+Triste,Antonio Carlos Jobim,Wave,Bossa Nova,291
+Misty,Erroll Garner,Concert by the Sea,Jazz,207
+Doxy,Sonny Rollins,The Sound of Sonny,Jazz,256
+Groovin' High,Dizzy Gillespie,Groovin' High,Jazz,165
+It Never Entered My Mind,Miles Davis,Cookin' with the Miles Davis Quintet,Jazz,308
+My Ship,Miles Davis,Miles Ahead,Jazz,479
+Alice in Wonderland,Bill Evans,Sunday at the Village Vanguard,Jazz,484
+Embraceable You,Charlie Parker,Bird with Strings,Bebop,321
+Lush Life,John Coltrane,Lush Life,Jazz,398
+Dear Old Stockholm,Stan Getz,Stan Getz Plays,Jazz,345
+Laura,Bill Evans,Waltz for Debby,Jazz,287
+Blue Rondo à la Turk,Dave Brubeck,Time Out,Jazz,379
+Night and Day,Cole Porter,Red Hot + Blue,Vocal Jazz,352
+Time Remembered,Bill Evans,Explorations,Jazz,299
+Dolphin Dance,Herbie Hancock,Maiden Voyage,Jazz,587
+Solar,Miles Davis,Walkin',Jazz,285
+Pent-Up House,Sonny Rollins,Sonny Rollins Plus Four,Hard Bop,539
+I'll Remember April,Erroll Garner,Concert by the Sea,Jazz,306
+Milestones,Miles Davis,Milestones,Jazz,351
+The Peacocks,Jimmy Rowles,The Peacocks,Jazz,452
+Out of Nowhere,Charlie Parker,Charlie Parker with Strings,Bebop,266
+Blue Monk,Thelonious Monk,Thelonious Monk Trio,Jazz,947
+Ko-Ko,Duke Ellington,Duke Ellington's Greatest Hits,Jazz,193
