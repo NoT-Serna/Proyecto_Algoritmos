@@ -380,13 +380,17 @@ int main() {
             cout << "1. Rock" << endl;
             cout << "2. Pop" << endl;
             cout << "3. Reggaeton" << endl;
-            cout << "4. Indie" <<endl;
-            cout << "5. Folk" <<endl;
-            cout << "6. R&B" <<endl;
+            cout << "4. Indie-folk" <<endl;
+            cout << "5. R&B" <<endl;
+            cout << "6. Country" <<endl;
+            cout << "7. Hip hop" <<endl;
+            cout << "8. Salsa" <<endl;
+            cout << "9. Electrónica" <<endl;
+            cout << "10. Jazz" <<endl;
             cout << "0. Salir" << endl;
             cout << "Opción: ";
             cin >> opcion;
-    
+   
             switch (opcion) {
                 case 1:
                     pl.push_back(new Genero("Rock"));
@@ -401,16 +405,32 @@ int main() {
                     pl.readSongsFromFile("songs.txt", "Reggaeton");
                     break;
                 case 4:
-                    pl.push_back(new Genero("Indie"));
-                    pl.readSongsFromFile("songs.txt", "Indie");
+                    pl.push_back(new Genero("Indie-folk"));
+                    pl.readSongsFromFile("songs.txt", "Indie-folk");
                     break;
                 case 5:
-                    pl.push_back(new Genero("Folk"));
-                    pl.readSongsFromFile("songs.txt", "Folk");
-                    break;
-                case 6:
                     pl.push_back(new Genero("R&B"));
                     pl.readSongsFromFile("songs.txt", "R&B");
+                    break;
+                case 6:
+                    pl.push_back(new Genero("country"));
+                    pl.readSongsFromFile("songs.txt", "country");
+                    break;
+                case 7:
+                    pl.push_back(new Genero("hip hop"));
+                    pl.readSongsFromFile("songs.txt", "hip hop");
+                    break;
+                case 8:
+                    pl.push_back(new Genero("salsa"));
+                    pl.readSongsFromFile("songs.txt", "salsa");
+                    break;
+                case 9:
+                    pl.push_back(new Genero("electronica"));
+                    pl.readSongsFromFile("songs.txt", "electronica");
+                    break;
+                case 10:
+                    pl.push_back(new Genero("Jazz"));
+                    pl.readSongsFromFile("songs.txt", "Jazz");
                     break;
                 case 0:
                     cout << "Saliendo del programa..." << endl;
@@ -421,7 +441,6 @@ int main() {
             pl.print();
         } while (opcion != 0);
         return 0;
-
 }
      /*
     Playlist pl = Playlist();
