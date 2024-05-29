@@ -169,15 +169,7 @@ public:
         if (size == 0) {
             cancion = new Cancion(t, a, al, d, g);
             size++;
-        } //else {
-           // Cancion* c_1 = cancion;
-           // while (c_1->get_next() != nullptr) {
-               // c_1 = c_1->get_next();
-           // }
-           // c_1->set_next(new Cancion(t, a, al, d, g));
-            //size++;
-       // }
-        //el codigo comentado es porque a la hora de relizar algunas pruebas, este pedazo de codigo no se esta ejecutando
+        } 
     }
 
     Cancion* get(int i) {
@@ -341,7 +333,7 @@ public:
                         artists.push_back(artist);
                     }
 
-                    // Add song to the playlist //este esta recorriendo la lista 3 veces, por lo cual le quita algo de efectividad al programa, esto esta basicamente insertando una cancion a un nodo vacio
+                    //este esta recorriendo la lista 2 veces, un error que nosotros tuvimos y en parte afecta un poco la eficiencia del programa.
                     get(getSize() - 1)->push_back(title, artists, album, duration, get(getSize() - 1)->get_dato());
                 }
             } else {
@@ -352,22 +344,7 @@ public:
         file.close();
     }
 
-   /*void printGenero(const string& gen_name) {
-    Nodo* current = ptr.get();
-    bool found = false;
-    while (current != nullptr) {
-        if (current->get_dato()->get_nombre() == gen_name) {
-            cout << (*current) << endl;
-            found = true;
-            break;
-        }
-        current = current->get_next();
-    }
-    if (!found) {
-        cout << "Género '" << gen_name << "' no encontrado." << endl;
-    }
-}
-*/
+
 
 };
 
@@ -442,28 +419,4 @@ int main() {
         } while (opcion != 0);
         return 0;
 }
-     /*
-    Playlist pl = Playlist();
-    pl.push_back(new Genero("Rock"));
-    pl.push_back(new Genero("Pop"));
-    // Añadir canciones al género
-    if (pl.getSize() > 0) {
-        pl.get(0)->push_back("Welcome to the Jungle", "Guns N' Roses", "Appetite For Destruction", 263);
-        pl.get(0)->push_back("Black Dog", "Led Zeppelin", "Led Zeppelin IV", 317);
-        pl.get(1)->push_back("Billie Jean", "Michael Jackson", "Thriller", 310);
-        pl.get(1)->push_back("Human Nature", "Micheal Jackson", "Thriller", 250);
-    } else {
-        cout << "Playlist esta vacía. Añada un genero primero." << endl;
-    }
-    pl.print();
-    Playlist pl = Playlist();
-    pl.push_back(new Genero("Rock"));
-    pl.push_back(new Genero("Pop"));
-    pl.push_back(new Genero("Reggaeton"));
-    // Leer canciones
-    pl.readSongsFromFile("songs.txt", "Rock");
-    pl.readSongsFromFile("songs.txt", "Pop");
-    pl.readSongsFromFile("songs.txt", "Reggaeton");
-    pl.print();
-    return 0;
-    */
+    
